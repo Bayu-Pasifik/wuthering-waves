@@ -9,7 +9,7 @@ const platforms = [
   {
     name: 'PC (Windows)',
     url: 'https://store.steampowered.com/app/2547860/Wuthering_Waves/',
-    label: 'Download on Steam',
+    label: 'Download di Steam',
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <rect x="2" y="3" width="20" height="14" rx="2" />
@@ -21,7 +21,7 @@ const platforms = [
   {
     name: 'iOS',
     url: 'https://apps.apple.com/app/wuthering-waves/id1640209073',
-    label: 'Download on App Store',
+    label: 'Download di App Store',
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <rect x="5" y="2" width="14" height="20" rx="3" />
@@ -32,7 +32,7 @@ const platforms = [
   {
     name: 'Android',
     url: 'https://play.google.com/store/apps/details?id=com.kurogame.wutheringwaves.global',
-    label: 'Get on Google Play',
+    label: 'Dapatkan di Google Play',
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M5 16V8a7 7 0 0 1 14 0v8" />
@@ -44,7 +44,7 @@ const platforms = [
   {
     name: 'PlayStation 5',
     url: 'https://store.playstation.com/en-us/concept/10008761',
-    label: 'Available on PS5',
+    label: 'Tersedia di PS5',
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M6 11h4l-2 6" />
@@ -64,7 +64,6 @@ export default function CTA() {
   useEffect(() => {
     if (!sectionRef.current || prefersReducedMotion) return;
     const ctx = gsap.context(() => {
-      // Title entrance with CustomBounce
       const titleBounce = CustomBounce.create('ctaTitleBounce', {
         strength: 0.5,
         endAtStart: true,
@@ -97,7 +96,6 @@ export default function CTA() {
         ease: 'power3.out',
       });
 
-      // Platform buttons entrance with staggered CustomBounce
       const btnBounce = CustomBounce.create('ctaBtnBounce', {
         strength: 0.4,
         endAtStart: true,
@@ -120,7 +118,6 @@ export default function CTA() {
         });
       });
 
-      // CustomWiggle on hover for buttons
       document.querySelectorAll('.cta-platform-btn').forEach((btn) => {
         btn.addEventListener('mouseenter', () => {
           if (!prefersReducedMotion) {
@@ -138,7 +135,6 @@ export default function CTA() {
         });
       });
 
-      // Official site link entrance
       gsap.from('.cta-official', {
         scrollTrigger: {
           trigger: '.cta-official',
@@ -151,7 +147,6 @@ export default function CTA() {
         ease: 'power3.out',
       });
 
-      // Disclaimer and credits entrance
       gsap.from('.cta-footer-content', {
         scrollTrigger: {
           trigger: '.cta-footer-content',
@@ -164,7 +159,6 @@ export default function CTA() {
         ease: 'power3.out',
       });
 
-      // Decorative glow pulse
       if (!prefersReducedMotion) {
         gsap.to('.cta-glow', {
           scale: 1.15,
@@ -181,7 +175,6 @@ export default function CTA() {
 
   return (
     <section ref={sectionRef} className="section-wrapper cta-section" id="cta">
-      {/* Background glow */}
       <div
         className="cta-glow"
         style={{
@@ -202,16 +195,15 @@ export default function CTA() {
       />
 
       <div className="container cta-container">
-        <p className="section-label">Begin Your Journey</p>
+        <p className="section-label">Mulai Perjalananmu</p>
         <h2 ref={titleRef} className="section-title cta-title">
-          Ready to Begin<br />Your Journey?
+          Siap Memulai<br />Perjalananmu?
         </h2>
         <p className="section-desc cta-subtitle">
-          Wuthering Waves is free to play across all platforms. Download now
-          and step into the world of Solaris-3.
+          Wuthering Waves gratis dimainkan di semua platform. Download sekarang
+          dan masuki dunia Solaris-3.
         </p>
 
-        {/* Platform buttons */}
         <div className="cta-platforms">
           {platforms.map((p) => (
             <a
@@ -244,7 +236,6 @@ export default function CTA() {
           ))}
         </div>
 
-        {/* Official site link */}
         <div className="cta-official">
           <a
             href="https://wutheringwaves.kurogames.com"
@@ -266,22 +257,20 @@ export default function CTA() {
               <path d="M2 12h20" />
               <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
             </svg>
-            Visit Official Site
+            Kunjungi Situs Resmi
           </a>
         </div>
 
-        {/* Divider */}
         <div className="cta-divider" />
 
-        {/* Disclaimer and credits */}
         <div className="cta-footer-content">
           <p className="cta-disclaimer">
-            This is an unofficial fan-made project created for educational,
-            portfolio, and appreciation purposes. Wuthering Waves and its
-            related intellectual property are owned by Kuro Games.
+            Ini adalah proyek buatan penggemar yang tidak resmi dibuat untuk tujuan
+            edukasi, portofolio, dan apresiasi. Wuthering Waves dan
+            kekayaan intelektual terkait dimiliki oleh Kuro Games.
           </p>
           <p className="cta-credit">
-            Screenshots and gameplay footage by Bayu. Game by Kuro Games.
+            Screenshot dan cuplikan gameplay oleh Bayu. Gim oleh Kuro Games.
           </p>
         </div>
       </div>

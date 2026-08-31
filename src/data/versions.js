@@ -1,14 +1,14 @@
 export const chapters = [
   {
     id: "chapter-i",
-    name: "Chapter I",
+    name: "Bab I",
     region: "Huanglong",
     color: "#4A90D9",
     versions: ["1.0", "1.1", "1.2", "1.3", "1.4"],
   },
   {
     id: "chapter-ii",
-    name: "Chapter II",
+    name: "Bab II",
     region: "Rinascita",
     color: "#D4A843",
     versions: [
@@ -25,14 +25,14 @@ export const chapters = [
   },
   {
     id: "chapter-iii",
-    name: "Chapter III",
+    name: "Bab III",
     region: "Lahai-Roi",
     color: "#7B68EE",
     versions: ["3.0", "3.1", "3.2", "3.3", "3.4", "3.5"],
   },
   {
     id: "chapter-iv",
-    name: "Chapter IV",
+    name: "Bab IV",
     region: "Mengzhou",
     color: "#C0392B",
     versions: ["3.6"],
@@ -42,19 +42,19 @@ export const chapters = [
 export const versions = [
   {
     version: "1.0",
-    title: "Waking of a World",
-    chapter: "Chapter I",
+    title: "Kebangkitan Sebuah Dunia",
+    chapter: "Bab I",
     region: "Huanglong",
     storyFocus:
-      "Awakening of Rover and the beginning of the Huanglong journey.",
+      "Kebangkitan Rover dan permulaan perjalanan di Huanglong.",
     narrative: [
-      "Wuthering Waves begins when Rover awakens without memories in the world of Solaris-3. Rover does not know who they are, where they came from, or why they have an unusual connection with Resonance. The world is陌生 and hostile, shaped by a catastrophic event known as the Lament that has left humanity scattered and vulnerable.",
-      "The encounter with Yangyang, Chixia, and Baizhi brings Rover to Jinzhou. From here, the world is introduced not through lengthy exposition but through journey and experience: cities that have survived after the Lament, Tacet Discords threatening humanity, Resonators possessing special abilities, and conflicts involving the Fractsidus organization.",
-      "Rover is then drawn into larger conflicts around Jinzhou. Jiyan and the Midnight Rangers demonstrate the military strength of Huanglong, while the presence of Scar and the Fractsidus reveals that threats in Solaris-3 do not come solely from monsters. The balance of power in Jinzhou begins to shift as deeper conspiracies are exposed.",
-      "Version 1.0 is the foundation of the entire story. It introduces the world, the main characters, the initial conflict, and the greatest question: who is Rover truly? This version also introduces the concept that Rover's past has left traces in the world they now traverse, setting up the mystery that will drive the narrative forward.",
+      "Wuthering Waves dimulai ketika Rover terbangun tanpa ingatan di dunia Solaris-3. Rover tidak mengetahui siapa dirinya, dari mana ia berasal, atau mengapa ia memiliki hubungan luar biasa dengan Resonance. Dunia ini asing dan bermusuhan, dibentuk oleh peristiwa katastrofik yang dikenal sebagai Lament yang telah membuat manusia tersebar dan rentan.",
+      "Pertemuan dengan Yangyang, Chixia, dan Baizhi membawa Rover ke Jinzhou. Dari sini, dunia diperkenalkan bukan melalui penjelasan panjang lebar, melalui perjalanan dan pengalaman: kota-kota yang telah bertahan setelah Lament, Tacet Discord yang mengancam manusia, Resonator yang memiliki kemampuan khusus, dan konflik yang melibatkan organisasi Fractsidus.",
+      "Rover kemudian terseret ke dalam konflik yang lebih besar di sekitar Jinzhou. Jiyan dan Midnight Rangers mendemonstrasikan kekuatan militer Huanglong, sementara kehadiran Scar dan Fractsidus mengungkapkan bahwa ancaman di Solaris-3 tidak datang semata-mata dari monster. Keseimbangan kekuasaan di Jinzhou mulai berubah seiring terungkapnya konspirasi yang lebih dalam.",
+      "Versi 1.0 merupakan fondasi dari seluruh cerita. Versi ini memperkenalkan dunia, karakter utama, konflik awal, dan pertanyaan terbesar: siapa Rover yang sebenarnya? Versi ini juga memperkenalkan konsep bahwa masa lalu Rover telah meninggalkan jejak di dunia yang kini ia lintasi, membangun misteri yang akan mendorong narasi ke depan.",
     ],
     whyItMatters:
-      "Without 1.0, there is no context for understanding the journey ahead. All mysteries about Rover, Black Shores, the Sentinels, and the world of Solaris-3 begin from this foundation.",
+      "Tanpa 1.0, tidak ada konteks untuk memahami perjalanan ke depan. Seluruh misteri tentang Rover, Black Shores, Sentinel, dan dunia Solaris-3 semuanya bermula dari fondasi ini.",
     characters: [
       "Rover",
       "Yangyang",
@@ -72,19 +72,19 @@ export const versions = [
   },
   {
     version: "1.1",
-    title: "Thaw of Eons",
-    chapter: "Chapter I",
+    title: "Pencairan Zaman",
+    chapter: "Bab I",
     region: "Huanglong",
     storyFocus:
-      "Jinhsi, Mt. Firmament, Jue, and Rover's connection to Huanglong's past.",
+      "Jinhsi, Mt. Firmament, Jue, dan hubungan Rover dengan masa lalu Huanglong.",
     narrative: [
-      "After the initial conflict in Jinzhou, Rover's journey brings the story to Mt. Firmament. This region is not merely a new snowy area. It holds a deep connection with Jinhsi and the Sentinel Jue, expanding the concept of Sentinels and showing that the relationship between humanity, Resonance, and the entities that protect a region is far more complex than it first appears.",
-      "Jinhsi becomes the central figure of the story. As the Magistrate of Jinzhou, she is not merely an administrative leader but someone with a profound connection to the history of Huanglong and to Jue. Her role bridges the present governance of Jinzhou with ancient obligations that predate the current era.",
-      "Rover joins in confronting conflicts related to Mt. Firmament and gains further clues about the nature of the world and the abilities they possess. The journey reveals that the Sentinel's power is tied to the land itself and that disturbances in one can ripple across the other.",
-      "Version 1.1 expands the scale of the story from local Jinzhou issues to a much older history, revealing layers of time and power that have been waiting beneath the surface.",
+      "Setelah konflik awal di Jinzhou, perjalanan Rover membawa cerita ke Mt. Firmament. Wilayah ini bukan sekadar area bersalju baru. Wilayah ini memiliki hubungan mendalam dengan Jinhsi dan Sentinel Jue, memperluas konsep Sentinel dan menunjukkan bahwa hubungan antara manusia, Resonance, dan entitas yang melindungi suatu wilayah jauh lebih kompleks dari yang tampak pada awalnya.",
+      "Jinhsi menjadi figur sentral dalam cerita. Sebagai Magistrate Jinzhou, ia bukan sekadar pemimpin administratif, seseorang dengan hubungan mendalam terhadap sejarah Huanglong dan Jue. Perannya menjembatani pemerintahan Jinzhou saat ini dengan kewajiban kuno yang mendahului era sekarang.",
+      "Rover bergabung dalam menghadapi konflik yang berkaitan dengan Mt. Firmament dan memperoleh petunjuk lebih lanjut tentang sifat dunia dan kemampuan yang dimilikinya. Perjalanan mengungkapkan bahwa kekuatan Sentinel terkait dengan tanah itu sendiri dan bahwa gangguan pada satu hal dapat merambat ke hal lain.",
+      "Versi 1.1 memperluas skala cerita dari masalah lokal Jinzhou menjadi sejarah yang jauh lebih tua, mengungkap lapisan waktu dan kekuatan yang telah menunggu di bawah permukaan.",
     ],
     whyItMatters:
-      "1.1 demonstrates that Solaris-3 has a long and layered history, and that powerful forces like the Sentinels play a critical role in shaping civilization across the ages.",
+      "1.1 menunjukkan bahwa Solaris-3 memiliki sejarah panjang dan berlapis, dan kekuatan besar seperti Sentinel memainkan peran kritis dalam membentuk peradaban lintas zaman.",
     characters: ["Rover", "Jinhsi", "Jue"],
     locations: ["Mt. Firmament", "Jinzhou"],
     media: {
@@ -95,19 +95,19 @@ export const versions = [
   },
   {
     version: "1.2",
-    title: "In the Turquoise Moonglow",
-    chapter: "Chapter I",
+    title: "Dalam Cahaya Bulan Pirus",
+    chapter: "Bab I",
     region: "Huanglong",
     storyFocus:
-      "Moon-Chasing Festival, life in Huanglong, and character-driven stories.",
+      "Festival Mengejar Bulan, kehidupan di Huanglong, dan cerita yang berpusat pada karakter.",
     narrative: [
-      "After the major conflicts of the previous version, 1.2 provides a breathing space. Rover finds themselves back in Huanglong during the Moon-Chasing Festival. The focus of this version is more human: how people live their lives after facing great threats, and what normalcy looks like in a world shaped by catastrophe.",
-      "The festival showcases a side of Huanglong that is not always filled with war and destruction. There are traditions, food, entertainment, relationships between characters, and the hopes of ordinary people. The community comes alive with color and warmth, a stark contrast to the desolation left by the Lament.",
-      "Zhezhi and Xiangli Yao become important parts of this version. Zhezhi's story brings themes of art, creativity, and the courage to face one's past. Xiangli Yao reveals the scientific and intellectual side of Solaris-3, showing that the world is not only defined by combat but also by curiosity and discovery.",
-      "This version is important because it shows that the world of Wuthering Waves is not solely a dark place filled with monsters. There is normal life that continues in the post-Lament world, and it is this life that gives meaning to the battles fought.",
+      "Setelah konflik besar versi sebelumnya, 1.2 memberikan ruang untuk bernapas. Rover menemukan dirinya kembali di Huanglong selama Festival Mengejar Bulan. Fokus versi ini lebih manusiawi: bagaimana orang-orang menjalani hidup mereka setelah menghadapi ancaman besar, seperti apa normalitas dalam dunia yang dibentuk oleh bencana.",
+      "Festival ini memamerkan sisi Huanglong yang tidak selalu dipenuhi perang dan kehancuran. Ada tradisi, makanan, hiburan, hubungan antar karakter, dan harapan orang-orang biasa. Komunitas hidup dengan warna dan kehangatan, kontras tajam dengan kehancuran yang ditinggalkan oleh Lament.",
+      "Zhezhi dan Xiangli Yao menjadi bagian penting dari versi ini. Cerita Zhezhi membawa tema seni, kreativitas, dan keberanian untuk menghadapi masa lalu seseorang. Xiangli Yao mengungkap sisi ilmiah dan intelektual Solaris-3, menunjukkan bahwa dunia ini tidak hanya didefinisikan oleh pertempuran, tetapi juga oleh rasa ingin tahu dan penemuan.",
+      "Versi ini penting karena menunjukkan bahwa dunia Wuthering Waves bukan sekadar tempat gelap yang dipenuhi monster. Ada kehidupan normal yang berlanjut di dunia pasc-Lament, dan kehidupan inilah yang memberikan makna pada pertempuran yang dilakukan.",
     ],
     whyItMatters:
-      "1.2 strengthens the emotional bond between the player and the world. Solaris-3 feels like a place truly inhabited by people, not merely a battlefield.",
+      "1.2 memperkuat ikatan emosional antara pemain dan dunia. Solaris-3 terasa seperti tempat yang benar-benar dihuni oleh orang-orang, bukan sekadar medan pertempuran.",
     characters: ["Rover", "Zhezhi", "Xiangli Yao"],
     locations: ["Huanglong"],
     media: {
@@ -118,19 +118,19 @@ export const versions = [
   },
   {
     version: "1.3",
-    title: "To the Shore's End",
-    chapter: "Chapter I",
+    title: "Menuju Ujung Pantai",
+    chapter: "Bab I",
     region: "Huanglong",
     storyFocus:
-      "Black Shores, Shorekeeper, Tethys System, and Rover's past.",
+      "Black Shores, Shorekeeper, Sistem Tethys, dan masa lalu Rover.",
     narrative: [
-      "1.3 becomes one of the biggest turning points in the early story. Rover finally travels to Black Shores, an organization that has previously appeared only as mystery and fragmented clues. The journey marks a significant escalation in the narrative stakes.",
-      "At Black Shores, Rover encounters an environment far more technologically advanced than much of Huanglong. This organization deals with research, data, prediction of phenomena, and the history of Rover itself. The architecture and systems of Black Shores suggest a level of understanding of the world's fundamental mechanics that surpasses anything seen before.",
-      "The appearance of Shorekeeper is profoundly important. Shorekeeper is not merely a new character; they share a long history with Rover and help unlock parts of the past that had previously existed only as scattered fragments of information. Their relationship with Rover adds emotional weight to the unfolding mystery.",
-      "The journey then leads to Tethys' Deep and conflicts related to the system and the great threat connected to the Lament. Version 1.3 transforms the story's central question: before it was 'Who is Rover?' After 1.3 it becomes 'What is Rover's role in the history of Solaris-3?'",
+      "1.3 menjadi salah satu titik balik terbesar di awal cerita. Rover akhirnya bepergian ke Black Shores, sebuah organisasi yang sebelumnya hanya muncul sebagai misteri dan petunjuk terfragmentasi. Perjalanan ini menandai eskalasi signifikan dalam taruhan narasi.",
+      "Di Black Shores, Rover menghadapi lingkungan yang jauh lebih maju secara teknologi dibandingkan sebagian besar Huanglong. Organisasi ini berurusan dengan riset, data, prediksi fenomena, dan sejarah Rover itu sendiri. Arsitektur dan sistem Black Shores menunjukkan tingkat pemahaman tentang mekanika fundamental dunia yang melampaui segala sesuatu yang pernah terlihat sebelumnya.",
+      "Kemunculan Shorekeeper sangat penting. Shorekeeper bukan sekadar karakter baru; ia berbagi sejarah panjang dengan Rover dan membantu membuka kunci bagian-bagian masa lalu yang sebelumnya hanya ada sebagai fragmen informasi yang berserakan. Hubungannya dengan Rover menambahkan bobot emosional pada misteri yang terungkap.",
+      "Perjalanan kemudian menuju ke kedalaman Tethys dan konflik yang berkaitan dengan sistem serta ancaman besar yang terhubung dengan Lament. Versi 1.3 mengubah pertanyaan sentral cerita: sebelumnya adalah 'Siapa Rover?' Setelah 1.3, pertanyaannya menjadi 'Apa peran Rover dalam sejarah Solaris-3?'",
     ],
     whyItMatters:
-      "1.3 expands Wuthering Waves from a post-apocalyptic action RPG into a sci-fi narrative connected to data, technology, memory, prediction, and identity.",
+      "1.3 memperluas Wuthering Waves dari RPG aksi pasca-apokaliptik menjadi narasi fiksi ilmiah yang terhubung dengan data, teknologi, memori, prediksi, dan identitas.",
     characters: ["Rover", "Shorekeeper"],
     locations: ["Black Shores", "Tethys' Deep"],
     media: {
@@ -141,18 +141,18 @@ export const versions = [
   },
   {
     version: "1.4",
-    title: "When the Night Knocks",
-    chapter: "Chapter I",
+    title: "Ketika Malam Mengetuk",
+    chapter: "Bab I",
     region: "Huanglong",
-    storyFocus: "Somnoire, dreams, Camellya, and emotional character bonds.",
+    storyFocus: "Somnoire, mimpi, Camellya, dan ikatan emosional karakter.",
     narrative: [
-      "1.4 takes a more psychological direction. Somnoire becomes a space where the boundary between reality and dream blurs. Characters can face images, fears, and possibilities that do not always follow the rules of the waking world. The environment itself feels unstable and deeply personal.",
-      "Camellya becomes the central focus through her companion story. Her relationship with Rover brings a more personal side of the Black Shores narrative, exploring the emotional toll of their shared history and the weight of memories that stretch back further than either can fully grasp.",
-      "This version does not move the main conflict as dramatically as 1.3, but it deepens the characters and demonstrates that identity and relationships can be explored through mental spaces and dreams. The Somnoire sequences allow for visual and narrative experimentation that breaks from the established structure.",
-      "Version 1.4 serves as an emotional transition before the next great journey. It allows the player to sit with the characters and their feelings before the story shifts to an entirely new region and set of challenges.",
+      "1.4 mengambil arah yang lebih psikologis. Somnoire menjadi ruang di mana batas antara realitas dan mimpi menjadi kabur. Karakter dapat menghadapi bayangan, ketakutan, dan kemungkinan yang tidak selalu mengikuti aturan dunia sadar. Lingkungan itu sendiri terasa tidak stabil dan sangat personal.",
+      "Camellya menjadi fokus sentral melalui cerita pendampingnya. Hubungannya dengan Rover menghadirkan sisi yang lebih personal dari narasi Black Shores, mengeksplorasi beban emosional dari sejarah mereka bersama dan bobot kenangan yang melampaui kemampuan siapa pun untuk memahami sepenuhnya.",
+      "Versi ini tidak mendorong konflik utama se-dramatis 1.3, tetapi memperdalam karakter dan menunjukkan bahwa identitas dan hubungan dapat di eksplorasi melalui ruang mental dan mimpi. Urutan Somnoire memungkinkan eksperimentasi visual dan naratif yang keluar dari struktur yang telah ditetapkan.",
+      "Versi 1.4 berfungsi sebagai transisi emosional sebelum perjalanan besar berikutnya. Versi ini memungkinkan pemain untuk duduk bersama karakter dan perasaan mereka sebelum cerita beralih ke wilayah dan tantangan yang sama sekali baru.",
     ],
     whyItMatters:
-      "1.4 functions as an emotional bridge before the next major arc, giving depth to the relationships and inner lives of the characters.",
+      "1.4 berfungsi sebagai jembatan emosional sebelum bus besar berikutnya, memberikan kedalaman pada hubungan dan kehidupan batin karakter.",
     characters: ["Rover", "Camellya"],
     locations: ["Somnoire"],
     media: {
@@ -163,19 +163,19 @@ export const versions = [
   },
   {
     version: "2.0",
-    title: "All Silent Souls Can Sing",
-    chapter: "Chapter II",
+    title: "Semua Jiwa yang Diam Dapat Bernyanyi",
+    chapter: "Bab II",
     region: "Rinascita",
     storyFocus:
-      "Rinascita, Ragunna, Carnival, Imperator, and the Threnodian threat.",
+      "Rinascita, Ragunna, Karnaval, Imperator, dan ancaman Threnodian.",
     narrative: [
-      "After repairing the Tethys System and finding clues left by a past version of themselves, Rover embarks on a journey away from Huanglong. Their destination is Rinascita, a region that looks strikingly different from the lands they have known. The architecture is grand, the festivals vibrant, the music resonant, and the culture shaped deeply by Echoes.",
-      "Rinascita is a place of churches, noble families, and traditions built around the concept of Echoes as something almost divine. The society has developed differently from Huanglong, placing spiritual and cultural weight on entities that elsewhere are treated merely as tools or threats.",
-      "However, this beauty conceals serious problems. Ragunna faces the threat of a Threnodian and internal conflicts involving various factions and influential families. Power struggles simmer beneath the surface of every festival and ceremony, and the arrival of Rover adds a new variable to an already volatile equation.",
-      "Rover meets Carlotta, Roccia, and various other figures of Rinascita. The story begins to explore how a society can build trust, religion, culture, and politics around Echoes and the entities they consider divine. Version 2.0 marks a major shift in the scale and scope of the world.",
+      "Setelah memperbaiki Sistem Tethys dan menemukan petunjuk yang ditinggalkan oleh versi masa lalu mereka, Rover memulai perjalanan menjauh dari Huanglong. Tujuan mereka adalah Rinascita, sebuah wilayah yang tampak sangat berbeda dari tanah yang mereka kenal. Arsitekturnya megah, festivalnya semarak, musiknya resonan, dan budayanya dibentuk secara mendalam oleh Echo.",
+      "Rinascita adalah tempat gereja, keluarga bangsawan, dan tradisi yang dibangun di sekitar konsep Echo sebagai sesuatu yang hampir ilahi. Masyarakat ini berkembang berbeda dari Huanglong, menempatkan bobot spiritual dan budaya pada entitas yang di tempat lain hanya dianggap sebagai alat atau ancaman.",
+      "Namun, keindahan ini menyembunyikan masalah serius. Ragunna menghadapi ancaman Threnodian dan konflik internal yang melibatkan berbagai faksi dan keluarga berpengaruh. Perebutan kekuasaan merajalela di bawah permukaan setiap festival dan upacara, dan kedatangan Rover menambahkan variabel baru ke persamaan yang sudah tidak stabil.",
+      "Rover bertemu Carlotta, Roccia, dan berbagai tokoh lain dari Rinascita. Cerita mulai mengeksplorasi bagaimana suatu masyarakat dapat membangun kepercayaan, agama, budaya, dan politik di sekitar Echo dan entitas yang mereka anggap ilahi. Versi 2.0 menandakan perubahan besar dalam skala dan cakupan dunia.",
     ],
     whyItMatters:
-      "Rinascita proves that Solaris-3 is home to extremely diverse civilizations. The world does not revolve solely around Jinzhou, and each region has its own identity, conflicts, and values.",
+      "Rinascita membuktikan bahwa Solaris-3 merupakan rumah bagi peradaban yang sangat beragam. Dunia ini tidak hanya berputar di sekitar Jinzhou, dan setiap wilayah memiliki identitas, konflik, dan nilai tersendiri.",
     characters: [
       "Rover",
       "Carlotta",
@@ -191,19 +191,19 @@ export const versions = [
   },
   {
     version: "2.1",
-    title: "Waves Sing, and the Cerulean Bird Calls",
-    chapter: "Chapter II",
+    title: "Ombak Bernyanyi, dan Burung Biru Berkicau",
+    chapter: "Bab II",
     region: "Rinascita",
     storyFocus:
-      "Deepening Rinascita's conflict and character development after Rover's arrival.",
+      "Pendalaman konflik Rinascita dan pengembangan karakter setelah kedatangan Rover.",
     narrative: [
-      "2.1 continues the consequences of the major events in Ragunna. Rover becomes increasingly involved with the social structure and conflicts of Rinascita. Relationships between characters, families, traditions, and political power become ever more important as alliances shift and new tensions emerge.",
-      "The story expands the geography of Rinascita and provides more context regarding how local communities understand Echoes and their place in the world. Different factions interpret the role of Echoes differently, and these differences become fault lines that threaten to tear the region apart.",
-      "Rover's presence begins to influence the balance of power in ways that are not immediately apparent. The decisions made in this version carry weight that will be felt in the conflicts to come, establishing cause and effect across the broader narrative.",
-      "Version 2.1 strengthens the foundation of Rinascita so that the conflicts that follow feel like natural developments rather than simple area changes.",
+      "2.1 melanjutkan konsekuensi dari peristiwa besar di Ragunna. Rover semakin terlibat dengan struktur sosial dan konflik Rinascita. Hubungan antar karakter, keluarga, tradisi, dan kekuasaan politik menjadi semakin penting seiring berubahnya aliansi dan munculnya ketegangan baru.",
+      "Cerita memperluas geografi Rinascita dan memberikan lebih banyak konteks mengenai bagaimana komunitas lokal memahami Echo dan tempat mereka di dunia. Berbagai faksi menginterpretasikan peran Echo secara berbeda, dan perbedaan ini menjadi patahan yang mengancam akan memecah belah wilayah.",
+      "Kehadiran Rover mulai mempengaruhi keseimbangan kekuasaan dengan cara yang tidak langsung terlihat. Keputusan yang dibuat dalam versi ini membawa bobot yang akan terasa dalam konflik yang akan datang, membangun sebab dan akibat di seluruh narasi yang lebih luas.",
+      "Versi 2.1 memperkuat fondasi Rinascita sehingga konflik yang mengikuti terasa seperti perkembangan alami daripada sekadar perubahan area.",
     ],
     whyItMatters:
-      "This version deepens the player's connection to Rinascita's characters and conflicts, making the region feel like a living, evolving place rather than a static backdrop.",
+      "Versi ini memperdalam koneksi pemain dengan karakter dan konflik Rinascita, menjadikan wilayah ini terasa seperti tempat yang hidup dan terus berkembang, bukan sekadar latar belakang statis.",
     characters: ["Rover", "Carlotta", "Roccia"],
     locations: ["Rinascita", "Ragunna"],
     media: {
@@ -214,19 +214,19 @@ export const versions = [
   },
   {
     version: "2.2",
-    title: "Tangled Truth in Inverted Tower",
-    chapter: "Chapter II",
+    title: "Kebenaran yang Terjalin di Menara Terbalik",
+    chapter: "Bab II",
     region: "Rinascita",
     storyFocus:
-      "Inverted Tower, Rinascita's secrets, and increasingly complex truths.",
+      "Menara Terbalik, rahasia Rinascita, dan kebenaran yang semakin kompleks.",
     narrative: [
-      "The story moves into more mysterious territory with the Inverted Tower, a location that serves as a powerful symbol for the narrative itself. The closer Rover gets to the truth, the more layers of information must be peeled back, and the more complicated the picture becomes.",
-      "Rover begins to face situations where those who appear to be enemies are not necessarily the sole source of the problem. Alliances become ambiguous, and the history of Rinascita reveals itself to be a tapestry woven from competing truths and carefully guarded secrets.",
-      "The Inverted Tower challenges Rover not just physically but intellectually. Understanding what is happening requires grappling with perspectives and motivations that do not align neatly into good and evil. The environment itself reflects this complexity, with its structure defying conventional spatial logic.",
-      "Version 2.2 strengthens the theme that Wuthering Waves returns to repeatedly: truth is often composed of many perspectives, many memories, and many competing interests. No single account captures the full picture.",
+      "Cerita bergerak ke wilayah yang lebih misterius dengan Menara Terbalik, sebuah lokasi yang berfungsi sebagai simbol kuat bagi narasi itu sendiri. Semakin dekat Rover dengan kebenaran, semakin banyak lapisan informasi yang harus dikelupas, dan semakin rumit gambarannya menjadi.",
+      "Rover mulai menghadapi situasi di mana mereka yang tampak sebagai musuh bukanlah satu-satunya sumber masalah. Aliansi menjadi ambigu, dan sejarah Rinascita mengungkapkan dirinya sebagai permata yang ditenun dari kebenaran yang bersaing dan rahasia yang dijaga ketat.",
+      "Menara Terbalik menantang Rover tidak hanya secara fisik tetapi juga secara intelektual. Memahami apa yang terjadi memerlukan perjuangan dengan perspektif dan motivasi yang tidak selaras dengan baik dan jahat. Lingkungan itu sendiri mencerminkan kerumitan ini, dengan strukturnya yang menentang logika spasial konvensional.",
+      "Versi 2.2 memperkuat tema yang secara berulang dikembalikan oleh Wuthering Waves: kebenaran sering kali terdiri dari banyak perspektif, banyak kenangan, dan banyak kepentingan yang bersaing. Tidak ada satu cerita pun yang menangkap gambaran secara utuh.",
     ],
     whyItMatters:
-      "2.2 reinforces the core theme that truth is layered and multi-perspective, deepening the narrative complexity of the Rinascita arc.",
+      "2.2 memperkuat tema inti bahwa kebenaran bersifat berlapis dan multi-perspektif, memperdalam kompleksitas narasi bus Rinascita.",
     characters: ["Rover", "Carlotta"],
     locations: ["Inverted Tower", "Rinascita"],
     media: {
@@ -237,19 +237,19 @@ export const versions = [
   },
   {
     version: "2.3",
-    title: "Fiery Arpeggio of Summer Reunion",
-    chapter: "Chapter II",
+    title: "Arpegio Api Pertemuan Musim Panas",
+    chapter: "Bab II",
     region: "Rinascita",
     storyFocus:
-      "Anniversary celebration, memories, music, and life after major conflict.",
+      "Perayaan ulang tahun, kenangan, musik, dan kehidupan setelah konflik besar.",
     narrative: [
-      "2.3 has a more celebratory and reflective atmosphere. Beyond the world-building of Rinascita, this version gives space for the player to look back at their journey since the beginning of Wuthering Waves. The anniversary context allows for a moment of pause and appreciation.",
-      "The theme of nostalgia runs strongly through this version. It is a natural point for reflection, allowing characters and players alike to consider how far they have come and what the journey has meant. Music and memory intertwine to create a deeply atmospheric experience.",
-      "Rinascita's culture of music and celebration provides the perfect backdrop for this introspection. The festival atmosphere is not empty spectacle but carries genuine emotional weight, informed by everything the player has experienced up to this point.",
-      "Version 2.3 is the right moment to show that Rover's journey is not just a collection of battles, but a collection of relationships and memories that give meaning to the struggle.",
+      "2.3 memiliki atmosfer yang lebih meriah dan kontemplatif. Di luar pembangunan dunia Rinascita, versi ini memberikan ruang bagi pemain untuk melihat kembali perjalanan mereka sejak awal Wuthering Waves. Konteks ulang tahun memungkinkan momen jeda dan apresiasi.",
+      "Tema nostalgia merajalela melalui versi ini. Ini adalah titik alami untuk refleksi, memungkinkan karakter dan pemain untuk mempertimbangkan seberapa jauh mereka telah melangkah dan apa arti perjalanan itu. Musik dan kenangan berpadu menciptakan pengalaman yang sangat atmosferik.",
+      "Budaya musik dan perayaan Rinascita memberikan latar belakang yang sempurna untuk introspeksi ini. Atmosfer festival bukan sekadar pertunjukan kosong tetapi membawa bobot emosional yang tulus, dibentuk oleh semua pengalaman pemain hingga saat ini.",
+      "Versi 2.3 adalah momen yang tepat untuk menunjukkan bahwa perjalanan Rover bukan sekadar kumpulan pertempuran, tetapi kumpulan hubungan dan kenangan yang memberikan makna pada perjuangan.",
     ],
     whyItMatters:
-      "2.3 is a pivotal moment that shows Rover's journey is defined not by combat alone but by the relationships and memories formed along the way.",
+      "2.3 adalah momen penting yang menunjukkan bahwa perjalanan Rover ditentukan bukan hanya oleh pertempuran, tetapi juga oleh hubungan dan kenangan yang terbentuk di sepanjang jalan.",
     characters: ["Rover", "Carlotta", "Roccia"],
     locations: ["Rinascita"],
     media: {
@@ -260,19 +260,19 @@ export const versions = [
   },
   {
     version: "2.4",
-    title: "Lightly We Toss the Crown",
-    chapter: "Chapter II",
+    title: "Ringan Kita Melempar Mahkota",
+    chapter: "Bab II",
     region: "Rinascita",
     storyFocus:
-      "Septimont, Great Agon, Cartethyia, Lupa, and political conflict.",
+      "Septimont, Great Agon, Cartethyia, Lupa, dan konflik politik.",
     narrative: [
-      "Rover leaves the previous section of Rinascita and arrives in Septimont, a region with a distinctly different character. Septimont has a culture built around gladiatorial combat and competition, with the Great Agon serving as the central spectacle and the focal point of societal attention.",
-      "Behind the excitement of the games lie various political interests and conflicts. The gladiatorial culture is not mere entertainment but a mechanism for power, control, and the expression of identity. Different groups use the arena to settle disputes that cannot be resolved through diplomacy.",
-      "Cartethyia and Lupa become important parts of the story's development. Their perspectives and motivations add new dimensions to the conflict, showing that freedom, power, and identity can mean very different things to different groups within the same society.",
-      "Version 2.4 expands Rinascita from a city centered on festivals to a region with many city-states and competing interests. The world grows larger and more complicated with each step.",
+      "Rover meninggalkan bagian sebelumnya dari Rinascita dan tiba di Septimont, sebuah wilayah dengan karakter yang sangat berbeda. Septimont memiliki budaya yang dibangun di sekitar pertarungan gladiator dan kompetisi, dengan Great Agon sebagai spektakuler sentral dan titik fokus perhatian masyarakat.",
+      "Di balik kegembiraan permainan terdapat berbagai kepentingan dan konflik politik. Budaya gladiator bukan sekadar hiburan, mekanisme untuk kekuasaan, kontrol, dan ekspresi identitas. Berbagai kelompok menggunakan arena untuk menyelesaikan sengketa yang tidak dapat diselesaikan melalui diplomasi.",
+      "Cartethyia dan Lupa menjadi bagian penting dari perkembangan cerita. Perspektif dan motivasi mereka menambahkan dimensi baru pada konflik, menunjukkan bahwa kebebasan, kekuasaan, dan identitas dapat bermakna sangat berbeda bagi kelompok yang berbeda dalam masyarakat yang sama.",
+      "Versi 2.4 memperluas Rinascita dari kota yang berpusat pada festival menjadi wilayah dengan banyak kota-negara dan kepentingan yang bersaing. Dunia menjadi lebih besar dan lebih rumit dengan setiap langkah.",
     ],
     whyItMatters:
-      "2.4 expands Rinascita from a festival-centered city into a region with diverse city-states and conflicting interests, enriching the world's political landscape.",
+      "2.4 memperluas Rinascita dari kota yang berpusat pada festival menjadi wilayah dengan kota-kota negara yang beragam dan kepentingan yang bertentangan, memperkaya lanskap politik dunia.",
     characters: [
       "Rover",
       "Cartethyia",
@@ -287,19 +287,19 @@ export const versions = [
   },
   {
     version: "2.5",
-    title: "Unfading Melody of Life",
-    chapter: "Chapter II",
+    title: "Melodi Kehidupan yang Tak Pudar",
+    chapter: "Bab II",
     region: "Rinascita",
     storyFocus:
-      "Consequences of Rinascita's conflicts and continued character development.",
+      "Konsekuensi dari konflik Rinascita dan pengembangan karakter yang berlanjut.",
     narrative: [
-      "2.5 continues the story after the major conflicts of Septimont. The focus shifts to consequences: what happens after the characters make their great decisions, how inter-faction relationships change, and how Rover continues to move toward a broader truth.",
-      "The aftermath of the Septimont conflict ripples through every level of Rinascita's society. Characters must reckon with the outcomes of their choices, and the alliances that seemed solid begin to show their fractures under the weight of those consequences.",
-      "Rover finds themselves navigating not just physical dangers but the emotional and political fallout of everything that has transpired. The journey becomes as much about understanding what has been lost as about what is still to be gained.",
-      "Version 2.5 serves as a bridge toward the conclusion of the Rinascita arc, maintaining momentum while allowing the narrative to breathe and the consequences of earlier actions to settle.",
+      "2.5 melanjutkan cerita setelah konflik besar Septimont. Fokus berpindah ke konsekuensi: apa yang terjadi setelah karakter membuat keputusan besar mereka, bagaimana hubungan antar-faksi berubah, dan bagaimana Rover terus bergerak menuju kebenaran yang lebih luas.",
+      "Akibat dari konflik Septimont merambat ke setiap tingkatan masyarakat Rinascita. Karakter harus menghadapi hasil dari pilihan mereka, dan aliansi yang tampak kokoh mulai menunjukkan keretakan di bawah beban konsekuensi tersebut.",
+      "Rover menemukan dirinya tidak hanya menavigasi bahaya fisik tetapi juga dampak emosional dan politik dari semua yang telah terjadi. Perjalanan menjadi sama pentingnya dengan memahami apa yang telah hilang seperti halnya dengan apa yang masih akan diraih.",
+      "Versi 2.5 berfungsi sebagai jembatan menuju kesimpulan bus Rinascita, mempertahankan momentum sambil memungkinkan narasi untuk bernapas dan konsekuensi dari tindakan sebelumnya untuk meresap.",
     ],
     whyItMatters:
-      "This version serves as a bridge to the conclusion of the Rinascita arc, ensuring that the consequences of major events are felt and explored before the story moves on.",
+      "Versi ini berfungsi sebagai jembatan menuju kesimpulan bus Rinascita, memastikan bahwa konsekuensi dari peristiwa besar dirasakan dan dieksplorasi sebelum cerita berlanjut.",
     characters: ["Rover", "Carlotta"],
     locations: ["Rinascita", "Septimont"],
     media: {
@@ -310,19 +310,19 @@ export const versions = [
   },
   {
     version: "2.6",
-    title: "By Sun's Scourge, By Moon's Revelation",
-    chapter: "Chapter II",
+    title: "Dengan Sengatan Matahari, Dengan Penyingkapan Bulan",
+    chapter: "Bab II",
     region: "Rinascita",
     storyFocus:
-      "Septimont deepened, Augusta, Iuno, and conflicts leading to Rinascita's climax.",
+      "Septimont yang diperdalam, Augusta, Iuno, dan konflik yang mengarah ke klimks Rinascita.",
     narrative: [
-      "2.6 returns to Septimont and deepens the involvement of characters associated with it. Augusta and Iuno become important parts of the story's development, each bringing their own perspective on power, duty, and the cost of maintaining order in a fractured society.",
-      "Rover faces conflicts that are increasingly close to the root causes of Rinascita's problems. The journey moves past surface-level disputes and into the foundational tensions that have shaped the region's history and continue to drive its present crises.",
-      "This version demonstrates that the journey through Rinascita is not only about defeating threats but about understanding the structure of power, trust, sacrifice, and individual choice. Every faction has its reasons, and every sacrifice carries weight.",
-      "Version 2.6 brings the Rinascita story close to its climax and prepares the transition toward the next region. The narrative intensity builds steadily as the full scope of the conflict comes into view.",
+      "2.6 kembali ke Septimont dan memperdalam keterlibatan karakter yang terkait dengannya. Augusta dan Iuno menjadi bagian penting dari perkembangan cerita, masing-masing membawa perspektif mereka tentang kekuasaan, kewajiban, dan biaya mempertahankan ketertiban di masyarakat yang retak.",
+      "Rover menghadapi konflik yang semakin dekat ke akar masalah Rinascita. Perjalanan melampaui sengketa permukaan dan masuk ke ketegangan fundamental yang telah membentuk sejarah wilayah dan terus mendorong krisis saat ini.",
+      "Versi ini menunjukkan bahwa perjalanan melalui Rinascita bukan hanya tentang mengalahkan ancaman tetapi tentang memahami struktur kekuasaan, kepercayaan, pengorbanan, dan pilihan individu. Setiap faksi memiliki alasan, dan setiap pengorbanan membawa bobot.",
+      "Versi 2.6 membawa cerita Rinascita mendekati klimksnya dan mempersiapkan transisi ke wilayah berikutnya. Intensitas narasi terbangun secara stabil seiring cakupan penuh konflik mulai terlihat.",
     ],
     whyItMatters:
-      "2.6 drives the Rinascita narrative toward its climax and prepares the transition to the next great chapter of the story.",
+      "2.6 mendorong narasi Rinascita menuju klimksnya dan mempersiapkan transisi ke babak besar cerita berikutnya.",
     characters: ["Rover", "Augusta", "Iuno"],
     locations: ["Septimont", "Rinascita"],
     media: {
@@ -333,19 +333,19 @@ export const versions = [
   },
   {
     version: "2.7",
-    title: "Dawn Breaks on Dark Tides",
-    chapter: "Chapter II",
+    title: "Fajar Menyingsing di Gelombang Gelap",
+    chapter: "Bab II",
     region: "Rinascita",
     storyFocus:
-      "Conclusion of the Rinascita arc and the Dark Tide confrontation.",
+      "Kesimpulan bus Rinascita dan konfrontasi Dark Tide.",
     narrative: [
-      "2.7 becomes the grand conclusion of the Rinascita arc. The conflict with the Dark Tide reaches its final stage, and the various characters encountered throughout the journey begin to find resolution. The tension that has been building since version 2.0 reaches its breaking point.",
-      "Rover is no longer merely a visitor who helps a region. They have become part of Rinascita's history, woven into its story in ways that cannot be undone. The bonds formed and the choices made throughout the arc culminate in this final confrontation.",
-      "The resolution is not simple or clean. Every victory carries cost, and every resolution acknowledges what has been lost along the way. The Dawn that breaks is hard-won and tinged with the weight of sacrifice.",
-      "Version 2.7 marks the end of one great journey. After this, the story moves to a new chapter and a new region, carrying the lessons and scars of Rinascita forward.",
+      "2.7 menjadi kesimpulan besar dari bus Rinascita. Konflik dengan Dark Tide mencapai tahap akhirnya, dan berbagai karakter yang ditemui sepanjang perjalanan mulai menemukan resolusi. Ketegangan yang telah terbangun sejak versi 2.0 mencapai titik puncaknya.",
+      "Rover tidak lagi sekadar pengunjung yang membantu suatu wilayah. Mereka telah menjadi bagian dari sejarah Rinascita, ditenun ke dalam ceritanya dengan cara yang tidak dapat dibalikkan. Ikatan yang terbentuk dan pilihan yang dibuat di sepanjang bus berpuncak pada konfrontasi terakhir ini.",
+      "Resolusi tidak sederhana atau bersih. Setiap kemenangan membawa biaya, dan setiap resolusi mengakui apa yang telah hilang di sepanjang jalan. Fajar yang menyingsing diraih dengan susah payah dan diwarnai oleh bobot pengorbanan.",
+      "Versi 2.7 menandakan akhir dari satu perjalanan besar. Setelah ini, cerita berpindah ke bab baru dan wilayah baru, membawa peluka dan bekas luka Rinascita ke depan.",
     ],
     whyItMatters:
-      "2.7 is the end of one major journey. After this, the story moves to a new chapter and a new region, carrying forward everything that was learned and lost in Rinascita.",
+      "2.7 adalah akhir dari satu perjalanan besar. Setelah ini, cerita berpindah ke bab baru dan wilayah baru, membawa ke depan semua yang telah dipelajari dan hilang di Rinascita.",
     characters: ["Rover", "Carlotta", "Augusta", "Iuno"],
     locations: ["Rinascita", "Septimont"],
     media: {
@@ -356,19 +356,19 @@ export const versions = [
   },
   {
     version: "2.8",
-    title: "To the City Set in Amber",
-    chapter: "Chapter II",
+    title: "Menuju Kota yang Tertanam dalam Ambar",
+    chapter: "Bab II",
     region: "Rinascita",
     storyFocus:
-      "Chronorift Metropolis, Honami City, Chisa, and the doorway to Lahai-Roi.",
+      "Chronorift Metropolis, Honami City, Chisa, dan pintu masuk ke Lahai-Roi.",
     narrative: [
-      "2.8 functions as a bridge between chapters. Rover discovers the Chronorift Metropolis, an area with concepts of time, city, and technology that differ from anything encountered in the previous regions. The environment feels suspended, as if preserved in amber.",
-      "Chisa is introduced and the story begins directing attention toward Lahai-Roi. The introduction is organic, emerging from the investigation of the Chronorift Metropolis rather than being forced. New questions arise that can only be answered by venturing further.",
-      "The technology and architecture of Honami City suggest a civilization that has grappled with temporal anomalies in ways that other regions have not. The implications for Rover's journey are significant, as the manipulation of time may be connected to the deeper mysteries of Solaris-3.",
-      "Version 2.8 is a doorway chapter leading into Chapter III. It closes the book on Rinascita while opening the door to an entirely new set of questions and environments.",
+      "2.8 berfungsi sebagai jembatan antar bab. Rover menemukan Chronorift Metropolis, sebuah area dengan konsep waktu, kota, dan teknologi yang berbeda dari segala sesuatu yang ditemui di wilayah sebelumnya. Lingkungan ini terasa melayang, seolah terawetkan dalam ambar.",
+      "Chisa diperkenalkan dan cerita mulai mengarahkan perhatian ke Lahai-Roi. Pengenalan ini bersifat organik, muncul dari investigasi Chronorift Metropolis daripada dipaksakan. Pertanyaan baru muncul yang hanya dapat dijawab dengan melangkah lebih jauh.",
+      "Teknologi dan arsitektur Honami City menunjukkan peradaban yang telah berjuang dengan anomali temporal dengan cara yang belum dilakukan oleh wilayah lain. Implikasi bagi perjalanan Rover sangat signifikan, karena manipulasi waktu mungkin terhubung dengan misteri yang lebih dalam dari Solaris-3.",
+      "Versi 2.8 adalah bab pintu masuk yang menuju Bab III. Bab ini menutup buku tentang Rinascita sambil membuka pintu ke serangkaian pertanyaan dan lingkungan yang sama sekali baru.",
     ],
     whyItMatters:
-      "2.8 is the doorway chapter to Chapter III, transitioning the narrative from Rinascita to the mysteries of Lahai-Roi.",
+      "2.8 adalah bab pintu masuk ke Bab III, mentransisikan narasi dari Rinascita ke misteri Lahai-Roi.",
     characters: ["Rover", "Chisa"],
     locations: [
       "Chronorift Metropolis",
@@ -382,19 +382,19 @@ export const versions = [
   },
   {
     version: "3.0",
-    title: "We Who See the Stars",
-    chapter: "Chapter III",
+    title: "Kami yang Melihat Bintang",
+    chapter: "Bab III",
     region: "Lahai-Roi",
     storyFocus:
-      "Lahai-Roi, Startorch Academy, Rover's forgotten past, Helios, and the Threnodian.",
+      "Lahai-Roi, Startorch Academy, masa lalu Rover yang terlupakan, Helios, dan Threnodian.",
     narrative: [
-      "3.0 is another major shift in the direction of Wuthering Waves. Rover arrives in Lahai-Roi, a region that is markedly different from both Huanglong and Rinascita. Here, the story becomes increasingly futuristic, with technology and academic institutions playing a central role.",
-      "Startorch Academy becomes the narrative's center of gravity. What is surprising is Rover's connection to the academy and the possibility that Rover was once there long before the events of the game. This revelation reframes everything the player thought they understood about Rover's journey.",
-      "Lynae and various new characters help uncover the history of Lahai-Roi. The academy is not merely a school but a nexus of research, ambition, and secrets that have been buried for reasons that are only now becoming clear.",
-      "Project Helios and the Threnodian threat make the conflict evolve from a regional problem into something that threatens the future of the entire region. Version 3.0 transforms the mystery of Rover into something more concrete: Rover's past has a direct connection to major locations and projects across Solaris-3.",
+      "3.0 adalah pergeseran besar lainnya dalam arah Wuthering Waves. Rover tiba di Lahai-Roi, sebuah wilayah yang sangat berbeda dari Huanglong dan Rinascita. Di sini, cerita menjadi semakin futuristik, dengan teknologi dan institusi akademik memainkan peran sentral.",
+      "Startorch Academy menjadi gravitasi sentral narasi. Yang mengejutkan adalah hubungan Rover dengan akademi dan kemungkinan bahwa Rover pernah berada di sana jauh sebelum peristiwa permainan. Pengungkapan ini membingkai ulang segala sesuatu yang dipikirkan pemain tentang perjalanan Rover.",
+      "Lynae dan berbagai karakter baru membantu mengungkap sejarah Lahai-Roi. Akademi bukan sekadar sekolah, nexus riset, ambisi, dan rahasia yang telah dikubur untuk alasan yang baru sekarang mulai jelas.",
+      "Proyek Helios dan ancaman Threnodian membuat konflik berevolusi dari masalah regional menjadi sesuatu yang mengancam masa depan seluruh wilayah. Versi 3.0 mengubah misteri Rover menjadi sesuatu yang lebih konkret: masa lalu Rover memiliki hubungan langsung dengan lokasi dan proyek besar di seluruh Solaris-3.",
     ],
     whyItMatters:
-      "3.0 transforms Rover's mystery into something tangible: their past is directly connected to major places and projects in Solaris-3.",
+      "3.0 mengubah misteri Rover menjadi sesuatu yang nyata: masa lalu mereka terhubung langsung dengan tempat dan proyek besar di Solaris-3.",
     characters: [
       "Rover",
       "Lynae",
@@ -411,19 +411,19 @@ export const versions = [
   },
   {
     version: "3.1",
-    title: "For You Who Walk in Snow",
-    chapter: "Chapter III",
+    title: "Untukmu yang Melangkah dalam Salju",
+    chapter: "Bab III",
     region: "Lahai-Roi",
     storyFocus:
-      "Roya Frostlands, Aemeath, Luuk Herssen, and stories about time.",
+      "Roya Frostlands, Aemeath, Luuk Herssen, dan cerita tentang waktu.",
     narrative: [
-      "The journey continues into the Roya Frostlands, a snowy region that serves as both a physical and emotional landscape. The cold is not merely environmental but reflective of the isolation and endurance that define the characters who inhabit this place.",
-      "Aemeath becomes one of the emotional centers of the story. This version explores the relationship between memory, time, sacrifice, and someone trying to leave something for the future. The themes resonate deeply with Rover's own uncertain relationship with the past.",
-      "Rover does not only face physical threats but must also understand how past events can affect the present. The Roya Frostlands force a confrontation with the weight of history and the choices that have shaped the world as it is now.",
-      "Luuk Herssen adds further depth to the region's story, bringing perspectives on survival and legacy that complement the broader themes of Chapter III. Version 3.1 deepens the themes of time and memory that have become central to this chapter.",
+      "Perjalanan berlanjut ke Roya Frostlands, wilayah bersalju yang berfungsi sebagai lanskap fisik dan emosional. Dingin bukan sekadar lingkungan tetapi refleksi dari isolasi dan ketahanan yang mendefinisikan karakter yang mendiami tempat ini.",
+      "Aemeath menjadi salah satu pusat emosional cerita. Versi ini mengeksplorasi hubungan antara memori, waktu, pengorbanan, dan seseorang yang mencoba meninggalkan sesuatu untuk masa depan. Tema ini sangat beresonansi dengan hubungan Rover yang tidak pasti dengan masa lalu.",
+      "Rover tidak hanya menghadapi ancaman fisik tetapi juga harus memahami bagaimana peristiwa masa lalu dapat mempengaruhi masa kini. Roya Frostlands memaksa konfrontasi dengan bobot sejarah dan pilihan yang telah membentuk dunia seperti sekarang.",
+      "Luuk Herssen menambahkan kedalaman lebih pada cerita wilayah ini, membawa perspektif tentang kelangsungan hidup dan warisan yang melengkapi tema Bab III yang lebih luas. Versi 3.1 memperdalam tema waktu dan memori yang menjadi sentral di bab ini.",
     ],
     whyItMatters:
-      "3.1 deepens the themes of time and memory that have become critically important throughout Chapter III.",
+      "3.1 memperdalam tema waktu dan memori yang menjadi sangat penting di seluruh Bab III.",
     characters: [
       "Rover",
       "Aemeath",
@@ -438,19 +438,19 @@ export const versions = [
   },
   {
     version: "3.2",
-    title: "Resolution to Illuminate the Shadows",
-    chapter: "Chapter III",
+    title: "Resolusi untuk Menerangi Bayangan",
+    chapter: "Bab III",
     region: "Lahai-Roi",
     storyFocus:
-      "Startorch Academy, Sigrika, Roya Tribe, Fractsidus, and secrets hidden in shadow.",
+      "Startorch Academy, Sigrika, Roya Tribe, Fractsidus, dan rahasia yang tersembunyi dalam bayangan.",
     narrative: [
-      "3.2 takes the story deeper into the dark side of Startorch Academy. The institution that seemed like a beacon of knowledge reveals layers of concealment and compromise that challenge everything Rover has come to understand about Lahai-Roi.",
-      "Sigrika emerges as an important figure with connections to both the Roya Tribe and the broader history of Lahai-Roi. Her role and motivations add complexity to the political and personal dynamics at play.",
-      "Rover investigates mysterious frequencies and the involvement of the Fractsidus, whose presence in Lahai-Roi suggests that the organization's reach extends far beyond Huanglong. The web of connections becomes more intricate with each revelation.",
-      "As more information is uncovered, it becomes clear that the threats in Lahai-Roi do not stand alone. Version 3.2 brings together elements that have been building since 3.0: the academy, the Fractsidus, Rover, and the history of Lahai-Roi.",
+      "3.2 membawa cerita lebih dalam ke sisi gelap Startorch Academy. Institusi yang tampak seperti mercusuar pengetahuan mengungkapkan lapisan penyembunyian dan kompromi yang menantang segala sesuatu yang telah dipahami Rover tentang Lahai-Roi.",
+      "Sigrika muncul sebagai figur penting dengan hubungan baik dengan Roya Tribe dan sejarah Lahai-Roi yang lebih luas. Peran dan motivasinya menambahkan kompleksitas pada dinamika politik dan personal yang terjadi.",
+      "Rover menyelidiki frekuensi misterius dan keterlibatan Fractsidus, yang kehadirannya di Lahai-Roi menunjukkan bahwa jangkauan organisasi ini melampaui jauh Huanglong. Jaringan hubungan menjadi semakin rumit dengan setiap pengungkapan.",
+      "Seiring terungkapnya informasi, menjadi jelas bahwa ancaman di Lahai-Roi tidak berdiri sendiri. Versi 3.2 mengumpulkan elemen yang telah terbangun sejak 3.0: akademi, Fractsidus, Rover, dan sejarah Lahai-Roi.",
     ],
     whyItMatters:
-      "3.2 converges all the threads built since 3.0: the academy, the Fractsidus, Rover, and the history of Lahai-Roi, creating a unified picture of the region's conflicts.",
+      "3.2 menyatukan semua benang yang telah dibangun sejak 3.0: akademi, Fractsidus, Rover, dan sejarah Lahai-Roi, menciptakan gambaran bersatu tentang konflik wilayah ini.",
     characters: [
       "Rover",
       "Sigrika",
@@ -467,19 +467,19 @@ export const versions = [
   },
   {
     version: "3.3",
-    title: "Reverbs From the End of Galaxies",
-    chapter: "Chapter III",
+    title: "Gema dari Ujung Galaksi",
+    chapter: "Bab III",
     region: "Lahai-Roi",
     storyFocus:
-      "Dimmr Plains, continuation of Chapter III, and expansion of conflict scale.",
+      "Dimmr Plains, kelanjutan Bab III, dan perluasan skala konflik.",
     narrative: [
-      "3.3 extends Rover's journey into new territory and continues the narrative of Chapter III. Dimmr Plains reveals another side of Lahai-Roi, offering space for new characters and conflicts while maintaining the themes established earlier in the chapter.",
-      "The story moves increasingly far from local conflict and closer to the cosmic themes that have been building since Chapter III began. The scale of the narrative expands to encompass questions about the nature of existence and the forces that shape reality itself.",
-      "Dimmr Plains provides a landscape that is both beautiful and dangerous, a fitting backdrop for the escalating stakes. New characters bring fresh perspectives while existing characters continue to develop in response to the mounting pressures.",
-      "Version 3.3 functions as an advanced development toward the great climax of the Lahai-Roi chapter, expanding the world beyond the central conflict of Startorch Academy.",
+      "3.3 memperluas perjalanan Rover ke wilayah baru dan melanjutkan narasi Bab III. Dimmr Plains mengungkapkan sisi lain dari Lahai-Roi, memberikan ruang bagi karakter dan konflik baru sambil mempertahankan tema yang telah ditetapkan sebelumnya di bab ini.",
+      "Cerita semakin jauh dari konflik lokal dan semakin dekat ke tema kosmik yang telah terbangun sejak Bab III dimulai. Skala narasi berkembang untuk mencakup pertanyaan tentang sifat keberadaan dan kekuatan yang membentuk realitas itu sendiri.",
+      "Dimmr Plains menyediakan lanskap yang indah sekaligus berbahaya, latar belakang yang tepat untuk taruhan yang meningkat. Karakter baru membawa perspektif segar sementara karakter yang ada terus berkembang sebagai respons terhadap tekanan yang meningkat.",
+      "Versi 3.3 berfungsi sebagai pengembangan lanjutan menuju klimks besar bab Lahai-Roi, memperluas dunia melampaui konflik sentral Startorch Academy.",
     ],
     whyItMatters:
-      "3.3 advances the Lahai-Roi chapter toward its climax while expanding the world beyond the immediate scope of Startorch Academy's conflicts.",
+      "3.3 mendorong bab Lahai-Roi menuju klimksnya sambil memperluas dunia melampaui cakupan langsung konflik Startorch Academy.",
     characters: ["Rover"],
     locations: ["Dimmr Plains", "Lahai-Roi"],
     media: {
@@ -490,19 +490,19 @@ export const versions = [
   },
   {
     version: "3.4",
-    title: "The Dream Not Dreamed",
-    chapter: "Chapter III",
+    title: "Mimpi yang Tak Pernah Bermimpi",
+    chapter: "Bab III",
     region: "Lahai-Roi",
     storyFocus:
-      "Lucilla, Startorch Academy, Somnoire: Night City, and the Cyberpunk: Edgerunners collaboration.",
+      "Lucilla, Startorch Academy, Somnoire: Night City, dan kolaborasi Cyberpunk: Edgerunners.",
     narrative: [
-      "3.4 has two important narrative threads running in parallel. The first is the continuation of Chapter III through We Choose the Sky, focusing on Lucilla, Startorch Academy, and the future of the Synchronist Program. This thread deepens the institutional and personal stakes within Lahai-Roi.",
-      "The second thread is the collaboration with Cyberpunk: Edgerunners through At Dream's Edge. Rover discovers a gateway to Somnoire: Night City and meets Lucy and Rebecca, characters who originate from an entirely different world. The crossover is handled through the Somnoire framework, which allows for dimensional anomalies that feel organic to the established lore.",
-      "Night City exists as a space formed through dreams, memories, and anomalies. It is a place where the boundaries between worlds dissolve and where the echoes of one reality can be heard in another. The visual and narrative contrast between Lahai-Roi and Night City creates a striking juxtaposition.",
-      "Version 3.4 demonstrates that the concepts of dreams, memories, reality, and alternate worlds can become part of the exploration of Solaris-3. It broadens the scope of what the narrative is capable of encompassing.",
+      "3.4 memiliki dua benang naratif penting yang berjalan beriringan. Yang pertama adalah kelanjutan Bab III melalui We Choose the Sky, berfokus pada Lucilla, Startorch Academy, dan masa depan Synchronist Program. Benang ini memperdalam taruhan institusional dan personal di Lahai-Roi.",
+      "Benang kedua adalah kolaborasi dengan Cyberpunk: Edgerunners melalui At Dream's Edge. Rover menemukan gerbang ke Somnoire: Night City dan bertemu Lucy dan Rebecca, karakter yang berasal dari dunia yang sama sekali berbeda. Crossover ini ditangani melalui kerangka Somnoire, yang memungkinkan anomali dimensional yang terasa organik terhadap lore yang telah ditetapkan.",
+      "Night City ada sebagai ruang yang terbentuk melalui mimpi, kenangan, dan anomali. Ini adalah tempat di mana batas antara dunia larut dan gema satu realitas dapat didengar di realitas lain. Kontras visual dan naratif antara Lahai-Roi dan Night City menciptakan jalinan yang mencolok.",
+      "Versi 3.4 menunjukkan bahwa konsep mimpi, kenangan, realitas, dan dunia alternatif dapat menjadi bagian dari eksplorasi Solaris-3. Versi ini memperluas cakupan dari apa yang mampu dicakup oleh narasi.",
     ],
     whyItMatters:
-      "3.4 shows that dreams, memories, reality, and alternate worlds can be explored as part of Solaris-3's narrative framework, vastly expanding the story's potential.",
+      "3.4 menunjukkan bahwa mimpi, kenangan, realitas, dan dunia alternatif dapat di eksplorasi sebagai bagian dari kerangka naratif Solaris-3, memperluas potensi cerita secara signifikan.",
     characters: [
       "Rover",
       "Lucilla",
@@ -521,19 +521,19 @@ export const versions = [
   },
   {
     version: "3.5",
-    title: "Blade of Past Resounds, Lingering Dream Hymns",
-    chapter: "Chapter III",
+    title: "Pedang Masa Lalu Bergema, Hymn Mimpi yang Tertinggal",
+    chapter: "Bab III",
     region: "Lahai-Roi",
     storyFocus:
-      "Transition after Lahai-Roi and development of new characters.",
+      "Transisi setelah Lahai-Roi dan pengembangan karakter baru.",
     narrative: [
-      "3.5 continues the momentum of Chapter III after the events of 3.4. This version serves as a transitional phase that expands the world and its characters after the major conflicts of Lahai-Roi, while simultaneously preparing the narrative direction for what comes next.",
-      "The aftermath of the events at Startorch Academy and Somnoire: Night City reverberates through the characters and the world. New relationships form in the wake of the upheaval, and existing bonds are tested by the distance and changes that time and conflict have wrought.",
-      "Rover carries the lessons and losses of Lahai-Roi forward, their understanding of themselves and the world deepened by everything they have experienced. The journey is no longer just about discovering the past but about choosing what to do with that knowledge.",
-      "Version 3.5 maintains the continuity of Chapter III before the story moves to the next conflict and region. It ensures that no thread is left dangling without acknowledgment.",
+      "3.5 mempertahankan momentum Bab III setelah peristiwa 3.4. Versi ini berfungsi sebagai fase transisi yang memperluas dunia dan karakternya setelah konflik besar Lahai-Roi, sambil secara bersamaan mempersiapkan arah narasi untuk apa yang akan datang.",
+      "Akibat dari peristiwa di Startorch Academy dan Somnoire: Night City bergema melalui karakter dan dunia. Hubungan baru terbentuk di tengah kekacauan, dan ikatan yang ada diuji oleh jarak dan perubahan yang telah ditimbulkan oleh waktu dan konflik.",
+      "Rover membawa peluka dan kerugian Lahai-Roi ke depan, pemahaman mereka tentang diri sendiri dan dunia diperdalam oleh semua yang telah mereka alami. Perjalanan ini tidak lagi hanya tentang menemukan masa lalu tetapi tentang memilih apa yang harus dilakukan dengan pengetahuan itu.",
+      "Versi 3.5 mempertahankan kontinuitas Bab III sebelum cerita berpindah ke konflik dan wilayah berikutnya. Versi ini memastikan bahwa tidak ada benang yang tergantung tanpa pengakuan.",
     ],
     whyItMatters:
-      "3.5 maintains Chapter III's continuity before the story transitions to the next conflict and region, ensuring a coherent narrative flow.",
+      "3.5 mempertahankan kontinuitas Bab III sebelum cerita transisi ke konflik dan wilayah berikutnya, memastikan aliran narasi yang koheren.",
     characters: ["Rover"],
     locations: ["Lahai-Roi"],
     media: {
@@ -544,19 +544,19 @@ export const versions = [
   },
   {
     version: "3.6",
-    title: "Lamplight in Mirage, Sword's Resolve in Heart",
-    chapter: "Chapter IV",
+    title: "Cahaya Pelita dalam Fatamorgana, Ketegangan Pedang dalam Hati",
+    chapter: "Bab IV",
     region: "Mengzhou",
     storyFocus:
-      "Chapter IV begins. Mengzhou, Xuanyuan Domain, Qingxiao, Jingran, and Rover's continuing journey.",
+      "Bab IV dimulai. Mengzhou, Xuanyuan Domain, Qingxiao, Jingran, dan perjalanan berlanjut Rover.",
     narrative: [
-      "3.6 brings the story into Chapter IV. Rover continues their journey toward Mengzhou and enters a new conflict centered on culture, history, the sword, and an entirely new region. The transition marks a significant shift in tone and setting from the sci-fi atmosphere of Lahai-Roi.",
-      "Main Story Chapter IV Act III, Song of the Heart Sword, introduces the new area of Xuanyuan Domain. The region is steeped in tradition and martial culture, with the sword serving as both weapon and symbol of identity and honor. The architecture and atmosphere reflect a civilization that has developed along different lines from anything seen before.",
-      "Chapter IV Segue, The Nethermancer's Requiem, becomes a continuation that opens the direction for the next phase of the story. The introduction of new threats and mysteries ensures that the narrative momentum does not slow.",
-      "Qingxiao and Jingran become new Resonators associated with this phase of the story. Their perspectives and abilities bring fresh dimensions to the conflict. Version 3.6 marks that Rover's journey has moved far from the early days of Jinzhou. The mystery of Rover's identity remains the throughline, but the world that must be understood grows ever larger.",
+      "3.6 membawa cerita ke Bab IV. Rover melanjutkan perjalanan mereka menuju Mengzhou dan memasuki konflik baru yang berpusat pada budaya, sejarah, pedang, dan wilayah yang sama sekali baru. Transisi ini menandakan pergeseran nada dan latar yang signifikan dari atmosfer fiksi ilmiah Lahai-Roi.",
+      "Bab IV Act III, Song of the Heart Sword, memperkenalkan area baru Xuanyuan Domain. Wilayah ini kaya akan tradisi dan budaya bela diri, dengan pedang berfungsi sebagai senjata sekaligus simbol identitas dan kehormatan. Arsitektur dan atmosfer mencerminkan peradaban yang berkembang dengan garis-garis berbeda dari segala sesuatu yang pernah terlihat sebelumnya.",
+      "Bab IV Segue, The Nethermancer's Requiem, menjadi kelanjutan yang membuka arah untuk fase cerita berikutnya. Pengenalan ancaman dan misteri baru memastikan bahwa momentum narasi tidak melambat.",
+      "Qingxiao dan Jingran menjadi Resonator baru yang terkait dengan fase cerita ini. Perspektif dan kemampuan mereka membawa dimensi segar pada konflik. Versi 3.6 menunjukkan bahwa perjalanan Rover telah jauh melampaui hari-hari awal Jinzhou. Misteri identitas Rover tetap menjadi benang merah, tetapi dunia yang harus dipahami menjadi semakin besar.",
     ],
     whyItMatters:
-      "3.6 is not merely a new update. It is the entrance to Chapter IV and signals a new phase of Rover's journey, one that promises new cultures, conflicts, and mysteries.",
+      "3.6 bukan sekadar pembaruan baru. Ini adalah pintu masuk ke Bab IV dan menandakan fase baru perjalanan Rover, yang menjanjikan budaya, konflik, dan misteri baru.",
     characters: [
       "Rover",
       "Qingxiao",

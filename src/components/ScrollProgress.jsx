@@ -4,14 +4,14 @@ import { ScrollTrigger } from '../gsapSetup';
 import { prefersReducedMotion } from '../gsapSetup';
 
 const sectionNames = [
-  'THE WORLD WAKES',
-  'RESONANCE',
-  'FEATURES',
-  'GALLERY',
+  'DUNIA TERBANGUN',
+  'RESONANSI',
+  'FITUR',
+  'GALERI',
   'GAMEPLAY',
-  'CHARACTERS',
-  'TIMELINE',
-  'ARCHIVE',
+  'KARAKTER',
+  'LINIMASA',
+  'ARSIP',
 ];
 
 export default function ScrollProgress() {
@@ -25,7 +25,6 @@ export default function ScrollProgress() {
 
     const sections = document.querySelectorAll('.section-wrapper');
     const ctx = gsap.context(() => {
-      // Progress bar fill
       gsap.to(barRef.current, {
         scaleY: 1,
         ease: 'none',
@@ -37,7 +36,6 @@ export default function ScrollProgress() {
         },
       });
 
-      // Section tracking
       sections.forEach((section, i) => {
         if (!section) return;
         ScrollTrigger.create({

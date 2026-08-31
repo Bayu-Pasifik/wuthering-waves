@@ -11,10 +11,10 @@ import { prefersReducedMotion } from '../gsapSetup';
 const characters = [
   {
     name: 'Rover',
-    region: 'All Regions',
-    storyRole: 'Protagonist — a mysterious Resonator who awakens with fragmented memories, journeying across Solaris-3 to reclaim the past and confront the Tacet Discord threat.',
-    gameplayRole: 'Spectro / Havoc — versatile main DPS with stance-switching mechanics, adapting to any team composition.',
-    memorable: 'The player\'s anchor in a fractured world — every major story beat revolves around their resolve.',
+    region: 'Semua Wilayah',
+    storyRole: 'Protagonist — seorang Resonator misterius yang terbangun dengan ingatan yang terfragmentasi, melakukan perjalanan melintasi Solaris-3 untuk merebut kembali masa lalu dan menghadapi ancaman Tacet Discord.',
+    gameplayRole: 'Spectro / Havoc — DPS utama serbaguna dengan mekanisme pergantian posisi, beradaptasi dengan komposisi tim apa pun.',
+    memorable: 'Jangkar pemain dalam dunia yang retak — setiap ketukan cerita utama berputar di sekitar tekad mereka.',
     img: '/assets/images/Changli Splash.jpg',
     element: 'Spectro / Havoc',
     accent: '#3FE0D0',
@@ -22,9 +22,9 @@ const characters = [
   {
     name: 'Jinhsi',
     region: 'Huanglong — Jinzhou',
-    storyRole: 'Magistrate of Jinzhou — a composed leader burdened with the duty of protecting her city while concealing the truth of the Lament.',
-    gameplayRole: 'Spectro — powerful sub-DPS and support who channels solar energy into devastating burst attacks.',
-    memorable: 'Her unwavering duty and hidden vulnerability make her one of the most compelling leaders in the game.',
+    storyRole: 'Magistrate Jinzhou — pemimpin tenang yang memikul tanggung jawab melindungi kotanya sambil menyembunyikan kebenaran Lament.',
+    gameplayRole: 'Spectro — sub-DPS dan pendukung kuat yang menyalurkan energi matahari menjadi serangan burst dahsyat.',
+    memorable: 'Tanggung jawabnya yang tak tergoyahan dan kerentanan tersembunyi menjadikannya salah satu pemimpin paling menarik dalam gim.',
     img: '/assets/images/Changli Splash.jpg',
     element: 'Spectro',
     accent: '#FFD700',
@@ -32,9 +32,9 @@ const characters = [
   {
     name: 'Shorekeeper',
     region: 'Black Shores — Huanglong',
-    storyRole: 'Guardian of the Black Shores — an enigmatic figure tied to the deepest mysteries of Solaris\'s past.',
-    gameplayRole: 'Spectro — high-impact burst DPS with unique resonance mechanics that reward precise timing.',
-    memorable: 'Her connection to the world\'s forgotten history adds layers of intrigue to every interaction.',
+    storyRole: 'Penjaga Black Shores — sosok misterius yang terhubung dengan misteri terdalam masa lalu Solaris.',
+    gameplayRole: 'Spectro — DPS burst berdampak tinggi dengan mekanisme resonansi unik yang memberikan penghargaan atas waktu yang tepat.',
+    memorable: 'Koneksi mereka dengan sejarah terlupakan dunia menambah lapisan intriga dalam setiap interaksi.',
     img: '/assets/images/Cantarella Splash.jpg',
     element: 'Spectro',
     accent: '#A78BFA',
@@ -42,9 +42,9 @@ const characters = [
   {
     name: 'Carlotta',
     region: 'Rinascita',
-    storyRole: 'A key figure in the Rinascita storyline — navigating the cultural tensions and ancient secrets of the region.',
-    gameplayRole: 'Fusion — agile DPS with fast combo chains and crowd-control capabilities.',
-    memorable: 'Her sharp wit and relentless determination cut through the chaos of battle.',
+    storyRole: 'Figur kunci dalam alur cerita Rinascita — menavigasi ketegangan budaya dan rahasia kuno wilayah tersebut.',
+    gameplayRole: 'Fusion — DPS gesit dengan rantai combo cepat dan kemampuan crowd-control.',
+    memorable: 'Kecerdasan tajam dan keteguhan tanpa henti mereka memotong kekacauan pertempuran.',
     img: '/assets/images/Brant Splash.jpg',
     element: 'Fusion',
     accent: '#F97316',
@@ -52,9 +52,9 @@ const characters = [
   {
     name: 'Chisa',
     region: 'Lahai-Roi / Mengzhou',
-    storyRole: 'A Resonator from the coastal region of Lahai-Roi, tied to the tides and the mysteries beneath the waves.',
-    gameplayRole: 'Havoc — devastating AoE specialist with powerful area denial and burst damage.',
-    memorable: 'The duality of her calm demeanor and explosive power creates unforgettable combat moments.',
+    storyRole: 'Resonator dari wilayah pesisir Lahai-Roi, terhubung dengan pasang surut dan misteri di bawah ombak.',
+    gameplayRole: 'Havoc — spesialis AoE dahsyat dengan penolakan area dan burst damage yang kuat.',
+    memorable: 'Dwifungsi sikap tenang dan kekuatan ledakan mereka menciptakan momen pertempuran yang tak terlupakan.',
     img: '/assets/images/Chisa Summer Skin Splash.jpg',
     element: 'Havoc',
     accent: '#E11D48',
@@ -62,9 +62,9 @@ const characters = [
   {
     name: 'Sigrika',
     region: 'Lahai-Roi',
-    storyRole: 'A guardian figure from Lahai-Roi, wielding the power of the deep to protect her homeland.',
-    gameplayRole: 'Glacio — control-oriented DPS with freeze mechanics and sustained damage over time.',
-    memorable: 'Her stoic presence and icy precision command respect both in and out of combat.',
+    storyRole: 'Figur penjaga dari Lahai-Roi, menggunakan kekuatan kedalaman untuk melindungi tanah airnya.',
+    gameplayRole: 'Glacio — DPS berorientasi kontrol dengan mekanisme pembekuan dan damage berkelanjutan dari waktu ke waktu.',
+    memorable: 'Kehadiran tenang dan presisi dingin mereka mendapatkan rasa hormat baik di dalam maupun di luar pertempuran.',
     img: '/assets/images/Cartethyia Splash.jpg',
     element: 'Glacio',
     accent: '#38BDF8',
@@ -72,9 +72,9 @@ const characters = [
   {
     name: 'Augusta',
     region: 'Rinascita',
-    storyRole: 'A noble warrior from Rinascita, balancing honor and pragmatism in a world on the brink.',
-    gameplayRole: 'Electro — fast-attacking DPS with chain lightning and high single-target damage.',
-    memorable: 'Her blend of grace and ferocity makes every fight feel like a performance.',
+    storyRole: 'Ksatria mulia dari Rinascita, menyeimbangkan kehormatan dan pragmatisme di dunia yang berada di ambang kehancuran.',
+    gameplayRole: 'Electro — DPS serangan cepat dengan petir berantai dan single-target damage tinggi.',
+    memorable: 'Perpaduan keanggunan dan keganasan mereka membuat setiap pertarungan terasa seperti pertunjukan.',
     img: '/assets/images/Augusta Splash.jpg',
     element: 'Electro',
     accent: '#C084FC',
@@ -82,9 +82,9 @@ const characters = [
   {
     name: 'Aemeath',
     region: 'Lahai-Roi',
-    storyRole: 'A mysterious figure from the depths of Lahai-Roi, connected to ancient forces long thought dormant.',
-    gameplayRole: 'Aero — versatile support and DPS with wind-based crowd control and mobility.',
-    memorable: 'Her ethereal presence and connection to nature\'s raw power set her apart.',
+    storyRole: 'Sosok misterius dari kedalaman Lahai-Roi, terhubung dengan kekuatan kuno yang sudah lama dianggap tidur.',
+    gameplayRole: 'Aero — pendukung dan DPS serbaguna dengan crowd control berbasis angin dan mobilitas.',
+    memorable: 'Kehadiran etereal dan koneksi dengan kekuatan alam yang murni membuat mereka menonjol.',
     img: '/assets/images/Aemeath Splash.jpg',
     element: 'Aero',
     accent: '#4ADE80',
@@ -145,7 +145,6 @@ export default function CharacterSpotlight() {
   useEffect(() => {
     if (!sectionRef.current || prefersReducedMotion) return;
     const ctx = gsap.context(() => {
-      // Title entrance
       gsap.from('.cs-title', {
         scrollTrigger: {
           trigger: sectionRef.current,
@@ -169,7 +168,6 @@ export default function CharacterSpotlight() {
         ease: 'power3.out',
       });
 
-      // Character cards entrance with CustomBounce
       const bounceEase = CustomBounce.create('charBounce', {
         strength: 0.6,
         endAtStart: true,
@@ -194,7 +192,6 @@ export default function CharacterSpotlight() {
         });
       });
 
-      // CustomWiggle on card hover
       cardsRef.current.forEach((card) => {
         if (!card) return;
         card.addEventListener('mouseenter', () => {
@@ -211,7 +208,6 @@ export default function CharacterSpotlight() {
         });
       });
 
-      // MotionPath for decorative floating elements
       const floatingEls = sectionRef.current.querySelectorAll('.cs-float-particle');
       floatingEls.forEach((el, i) => {
         gsap.to(el, {
@@ -234,7 +230,6 @@ export default function CharacterSpotlight() {
         });
       });
 
-      // MorphSVG cycling for the decorative shape
       if (morphRef.current) {
         let shapeIdx = 0;
         const morphTl = gsap.timeline({ repeat: -1 });
@@ -255,12 +250,10 @@ export default function CharacterSpotlight() {
 
   return (
     <section ref={sectionRef} className="section-wrapper cs-section" id="characters">
-      {/* Hidden SVG for morph target */}
       <svg style={{ position: 'absolute', width: 0, height: 0 }}>
         <path ref={morphRef} id="cs-morph-shape" d={morphShapes[0]} fill="none" />
       </svg>
 
-      {/* Decorative floating particles */}
       {!prefersReducedMotion &&
         [...Array(6)].map((_, i) => (
           <div
@@ -282,14 +275,14 @@ export default function CharacterSpotlight() {
         ))}
 
       <div className="container">
-        <p className="section-label">Character Spotlight</p>
+        <p className="section-label">Spotlight Karakter</p>
         <h2 className="section-title cs-title">
-          Meet the<br />Resonators
+          Kenali<br />Resonator
         </h2>
         <p className="section-desc cs-desc">
-          Eight warriors bound by fate, each wielding unique powers forged from
-          their bond with Solaris-3. Their stories intertwine with the world's
-          deepest mysteries.
+          Delapan ksatria yang terikat oleh takdir, masing-masing menggunakan kekuatan unik yang terbentuk dari
+          ikatan mereka dengan Solaris-3. Kisah mereka berhubungan dengan misteri terdalam
+          dunia.
         </p>
 
         <div className="cs-grid">
@@ -311,7 +304,6 @@ export default function CharacterSpotlight() {
                   }}
                 />
                 <div className="cs-card-element">{char.element}</div>
-                {/* Morphing icon overlay */}
                 <svg
                   className="cs-card-icon"
                   viewBox="0 0 100 100"
@@ -339,7 +331,7 @@ export default function CharacterSpotlight() {
                 </div>
                 <div className="cs-card-details">
                   <div className="cs-card-detail">
-                    <span className="cs-card-label">Story</span>
+                    <span className="cs-card-label">Cerita</span>
                     <p className="cs-card-text">{char.storyRole}</p>
                   </div>
                   <div className="cs-card-detail">
@@ -347,7 +339,7 @@ export default function CharacterSpotlight() {
                     <p className="cs-card-text">{char.gameplayRole}</p>
                   </div>
                   <div className="cs-card-detail">
-                    <span className="cs-card-label">Why Memorable</span>
+                    <span className="cs-card-label">Mengapa Berkesan</span>
                     <p className="cs-card-text">{char.memorable}</p>
                   </div>
                 </div>
@@ -356,7 +348,6 @@ export default function CharacterSpotlight() {
           ))}
         </div>
 
-        {/* Decorative morph shape */}
         <div className="cs-morph-deco">
           <svg viewBox="0 0 100 100" width="100" height="100">
             <use

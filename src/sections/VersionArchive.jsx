@@ -76,7 +76,7 @@ function ChapterIntroCard({ chapter, isActive }) {
           maxWidth: '500px',
         }}
       >
-        {chapter.versions.length} version{chapter.versions.length !== 1 ? 's' : ''} in this chapter
+        {chapter.versions.length} versi dalam bab ini
       </div>
     </div>
   );
@@ -84,9 +84,9 @@ function ChapterIntroCard({ chapter, isActive }) {
 
 function SpoilerToggle({ level, onToggle }) {
   const labels = {
-    light: 'LIGHT SPOILER',
-    moderate: 'MODERATE SPOILER',
-    heavy: 'FULL SPOILER',
+    light: 'SPOILER RINGAN',
+    moderate: 'SEDANG',
+    heavy: 'CERITA LENGKAP',
   };
   const colors = {
     light: '#3FE0D0',
@@ -134,7 +134,7 @@ function SpoilerToggle({ level, onToggle }) {
           boxShadow: `0 0 8px ${colors[level]}88`,
         }}
       />
-      SPOILER: {labels[level]}
+      TINGKAT SPOILER: {labels[level]}
     </button>
   );
 }
@@ -517,7 +517,7 @@ function VersionEntry({ data, chapterColor, index, spoilerLevel }) {
                 marginBottom: '0.5rem',
               }}
             >
-              WHY IT MATTERS
+              MENGAPA PENTING
             </div>
             <p
               style={{
@@ -657,7 +657,7 @@ export default function VersionArchive() {
                 toggleActions: 'play none none reverse',
               },
               scrambleText: {
-                text: 'VERSION ARCHIVE',
+                text: 'ARSIP VERSI',
                 chars: '!<>-_\\/[]{}—=+*^?#________',
                 speed: 0.6,
                 delimiter: '',
@@ -848,7 +848,7 @@ export default function VersionArchive() {
             marginBottom: '1.5rem',
           }}
         >
-          VERSION ARCHIVE
+          ARSIP VERSI
         </div>
         <h2
           className="va-main-title"
@@ -863,9 +863,9 @@ export default function VersionArchive() {
             marginBottom: '1rem',
           }}
         >
-          THE JOURNEY OF
+          PERJALANAN
           <br />
-          ROVER THROUGH
+          ROVER MELALUI
           <br />
           <span style={{ color: '#3FE0D0' }}>SOLARIS-3</span>
         </h2>
@@ -879,8 +879,8 @@ export default function VersionArchive() {
             maxWidth: '50ch',
           }}
         >
-          Every version is a chapter in an unfolding story. Scroll through the archive to relive the
-          journey from awakening to the present.
+          Setiap versi adalah sebuah bab dalam kisah yang terus berlanjut. Telusuri arsip ini untuk mengulang kembali
+          perjalanan dari kebangkitan hingga saat ini.
         </p>
 
         <div style={{ marginTop: '2rem' }}>
@@ -1030,7 +1030,7 @@ function VersionNav({ chapters, versions }) {
                 textTransform: 'uppercase',
               }}
             >
-              &larr; PREVIOUS
+              &larr; SEBELUMNYA
             </span>
             <span
               style={{
@@ -1077,7 +1077,7 @@ function VersionNav({ chapters, versions }) {
                 textTransform: 'uppercase',
               }}
             >
-              NEXT &rarr;
+              BERIKUTNYA &rarr;
             </span>
             <span
               style={{

@@ -97,40 +97,41 @@ export default function SolarisWorld() {
         <img
           ref={imgRef}
           src="/assets/images/3.5.jpg"
-          alt="Solaris-3 world landscape"
+          alt="Lanskap dunia Solaris-3"
           loading="lazy"
         />
         <div ref={overlayRef} className="sw-overlay" />
       </div>
       <div className="container sw-content">
-        <p className="section-label">The World</p>
+        <p className="section-label">Dunia</p>
         <h2 className="section-title sw-title">SOLARIS-3</h2>
         <p className="section-sub sw-subtitle">
-          A shattered world where echoes of the past shape the battles of today
+          Dunia yang hancur di mana gaung masa lalu membentuk pertempuran hari ini
         </p>
 
         <div className="sw-body">
           <p className="sw-text">
-            Solaris-3 was once a thriving world of interconnected civilizations — until the Lament
-            tore through its frequencies, reducing entire continents to ruins. Now, pockets of
-            humanity cling to survival across a landscape of overgrown cities, scorched deserts,
-            and impossible terrain warped by residual energy.
+            Solaris-3 dulunya adalah dunia yang makmur dengan peradaban yang saling terhubung — hingga
+            Lament merobek frekuensinya, menghancurkan seluruh benua menjadi puing-puing. Kini,
+            kantong-kantong umat manusia bertahan hidup di lanskap yang ditumbuhi pepohonan kota yang
+            terbengkalai, gurun yang terbakar, dan medan yang mustahil yang berubah oleh energi sisa.
           </p>
           <p className="sw-text" style={{ marginTop: '1rem' }}>
-            The world is alive with danger. Tacet Discords roam the wilds, drawn to the dissonance
-            left by the catastrophe. But within the chaos lies opportunity — the same energies that
-            destroyed civilization have given rise to Resonators, individuals who can harness the
-            world's frequencies as weapons. Every ruin holds secrets, every frontier demands courage,
-            and the truth behind the Lament waits at the edge of the unknown.
+            Dunia ini penuh dengan bahaya. Tacet Discord berkeliaran di alam liar, tertarik pada
+            disonansi yang ditinggalkan oleh bencana tersebut. Namun di dalam kekacauan terdapat
+            peluang — energi yang sama yang menghancurkan peradaban telah melahirkan Resonator,
+            individu yang dapat memanfaatkan frekuensi dunia sebagai senjata. Setiap puing menyimpan
+            rahasia, setiap perbatasan menuntut keberanian, dan kebenaran di balik Lament menunggu
+            di ujung yang tidak diketahui.
           </p>
         </div>
 
         <div className="sw-tags">
-          <span className="sw-tag">Post-Apocalyptic</span>
-          <span className="sw-tag">Frequency-Driven</span>
-          <span className="sw-tag">Open World</span>
-          <span className="sw-tag">Dynamic Ecosystem</span>
-          <span className="sw-tag">Living Ruins</span>
+          <span className="sw-tag">Pasca-Apokaliptik</span>
+          <span className="sw-tag">Berbasis Frekuensi</span>
+          <span className="sw-tag">Dunia Terbuka</span>
+          <span className="sw-tag">Ekosistem Dinamis</span>
+          <span className="sw-tag">Puing-Puing yang Hidup</span>
         </div>
       </div>
 

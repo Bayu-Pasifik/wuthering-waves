@@ -29,19 +29,19 @@ const galleryImages = [
   { src: '/assets/images/Aemeath Splash.jpg', region: 'Rinascita', label: 'Aemeath — Splash Art' },
 ];
 
-const regions = ['All', 'Huanglong', 'Rinascita', 'Lahai-Roi'];
+const regions = ['Semua', 'Huanglong', 'Rinascita', 'Lahai-Roi'];
 
 export default function Gallery() {
   const sectionRef = useRef(null);
   const gridRef = useRef(null);
-  const [activeRegion, setActiveRegion] = useState('All');
+  const [activeRegion, setActiveRegion] = useState('Semua');
   const [filteredImages, setFilteredImages] = useState(galleryImages);
   const [selectedImage, setSelectedImage] = useState(null);
   const draggableInstance = useRef(null);
   const lightboxRef = useRef(null);
 
   useEffect(() => {
-    if (activeRegion === 'All') {
+    if (activeRegion === 'Semua') {
       setFilteredImages(galleryImages);
     } else {
       setFilteredImages(galleryImages.filter(img => img.region === activeRegion));
@@ -166,12 +166,12 @@ export default function Gallery() {
   return (
     <section ref={sectionRef} className="section-wrapper gal-section" id="gallery">
       <div className="container">
-        <p className="section-label">Screenshots</p>
-        <h2 className="section-title gal-title">Gallery</h2>
+        <p className="section-label">Tangkapan Layar</p>
+        <h2 className="section-title gal-title">Galeri</h2>
         <p className="section-desc">
           Koleksi screenshot pribadi dari berbagai momen di Solaris-3 — drag untuk menjelajahi.
         </p>
-        <div className="gal-filters" role="tablist" aria-label="Filter by region">
+        <div className="gal-filters" role="tablist" aria-label="Filter berdasarkan region">
           {regions.map(region => (
             <button
               key={region}
@@ -197,7 +197,7 @@ export default function Gallery() {
               onMouseEnter={handleCardHover}
               tabIndex={0}
               role="button"
-              aria-label={`View ${img.label}`}
+              aria-label={`Lihat ${img.label}`}
             >
               <img src={img.src} alt={img.label} loading="lazy" />
               <div className="gal-card-overlay">
@@ -216,13 +216,13 @@ export default function Gallery() {
           onClick={closeLightbox}
           role="dialog"
           aria-modal="true"
-          aria-label="Image lightbox"
+          aria-label="Galeri gambar"
         >
           <div className="gal-lightbox-content" onClick={e => e.stopPropagation()}>
             <button
               className="gal-lightbox-close"
               onClick={closeLightbox}
-              aria-label="Close lightbox"
+              aria-label="Tutup galeri"
             >
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M18 6L6 18M6 6l12 12" />
@@ -231,7 +231,7 @@ export default function Gallery() {
             <button
               className="gal-lightbox-nav gal-lightbox-prev"
               onClick={(e) => { e.stopPropagation(); navigateLightbox('prev'); }}
-              aria-label="Previous image"
+              aria-label="Gambar sebelumnya"
             >
               <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M15 18l-6-6 6-6" />
@@ -243,7 +243,7 @@ export default function Gallery() {
             <button
               className="gal-lightbox-nav gal-lightbox-next"
               onClick={(e) => { e.stopPropagation(); navigateLightbox('next'); }}
-              aria-label="Next image"
+              aria-label="Gambar berikutnya"
             >
               <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M9 18l6-6-6-6" />

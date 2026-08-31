@@ -196,7 +196,7 @@ function VideoPlayer({ video, isActive }) {
       />
 
       {!isPlaying && (
-        <button className="vs-play-overlay" onClick={togglePlay} aria-label="Play video">
+        <button className="vs-play-overlay" onClick={togglePlay} aria-label="Putar video">
           <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
             <circle cx="32" cy="32" r="30" stroke="currentColor" strokeWidth="2" opacity="0.5" />
             <path d="M26 20l18 12-18 12V20z" fill="currentColor" />
@@ -210,7 +210,7 @@ function VideoPlayer({ video, isActive }) {
           ref={progressRef}
           onClick={handleProgressClick}
           role="slider"
-          aria-label="Video progress"
+          aria-label="Progres video"
           aria-valuemin={0}
           aria-valuemax={100}
           aria-valuenow={Math.round(progress)}
@@ -223,7 +223,7 @@ function VideoPlayer({ video, isActive }) {
 
         <div className="vs-controls-row">
           <div className="vs-controls-left">
-            <button className="vs-btn" onClick={togglePlay} aria-label={isPlaying ? 'Pause' : 'Play'}>
+            <button className="vs-btn" onClick={togglePlay} aria-label={isPlaying ? 'Jeda' : 'Putar'}>
               {isPlaying ? (
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                   <rect x="6" y="4" width="4" height="16" />
@@ -240,7 +240,7 @@ function VideoPlayer({ video, isActive }) {
 
           <div className="vs-controls-right">
             <div className="vs-volume-group">
-              <button className="vs-btn" onClick={toggleMute} aria-label={isMuted ? 'Unmute' : 'Mute'}>
+              <button className="vs-btn" onClick={toggleMute} aria-label={isMuted ? 'Aktifkan suara' : 'Nonaktifkan suara'}>
                 {isMuted || volume === 0 ? (
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="currentColor" stroke="none" />
@@ -265,7 +265,7 @@ function VideoPlayer({ video, isActive }) {
                 aria-label="Volume"
               />
             </div>
-            <button className="vs-btn" onClick={toggleFullscreen} aria-label="Fullscreen">
+            <button className="vs-btn" onClick={toggleFullscreen} aria-label="Layar penuh">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3" />
               </svg>
@@ -340,8 +340,8 @@ export default function VideoShowcase() {
   return (
     <section ref={sectionRef} className="section-wrapper vs-section" id="videos">
       <div className="container">
-        <p className="section-label">Video Showcase</p>
-        <h2 className="section-title vs-title">Gameplay<br />in Action</h2>
+        <p className="section-label">VIDEO SHOWCASE</p>
+        <h2 className="section-title vs-title">GAMEPLAY<br />DALAM AKSI</h2>
         <p className="section-desc vs-subtitle">
           Screenshot hanya bisa bercerita sedikit — tonton gameplay asli untuk merasakan combat dan dunia Wuthering Waves.
         </p>
@@ -353,7 +353,7 @@ export default function VideoShowcase() {
                 key={v.id}
                 className={`vs-tab ${activeVideoIndex === i ? 'active' : ''}`}
                 onClick={() => selectVideo(i)}
-                aria-label={`Play ${v.title}`}
+                aria-label={`Putar ${v.title}`}
               >
                 <span className="vs-tab-num">{String(i + 1).padStart(2, '0')}</span>
                 <span className="vs-tab-title">{v.title}</span>

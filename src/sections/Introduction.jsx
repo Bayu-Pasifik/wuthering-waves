@@ -87,16 +87,17 @@ export default function Introduction() {
   return (
     <section ref={sectionRef} className="section-wrapper intro-section" id="introduction">
       <div className="container">
-        <p className="section-label">Lore &amp; Concepts</p>
+        <p className="section-label">Lore &amp; Konsep</p>
         <h2 className="section-title intro-title">
-          WHAT IS<br />WUTHERING WAVES?
+          APA ITU<br />WUTHERING WAVES?
         </h2>
         <p className="section-desc intro-desc">
-          An open-world action RPG developed by <strong>Kuro Games</strong>, set on the
-          devastated planet <strong>Solaris-3</strong>. As the amnesiac <strong>Rover</strong>,
-          you fight hostile <strong>Tacet Discords</strong>, wield the power of{' '}
-          <strong>Resonance</strong>, and unravel the mysteries behind a civilization shattered by
-          the <strong>Lament</strong>.
+          Sebuah game RPG aksi dunia terbuka yang dikembangkan oleh{' '}
+          <strong>Kuro Games</strong>, berlatar di planet yang hancur{' '}
+          <strong>Solaris-3</strong>. Sebagai <strong>Rover</strong> yang kehilangan ingatan, kamu
+          melawan <strong>Tacet Discord</strong> yang bermusuhan, menguasai kekuatan{' '}
+          <strong>Resonance</strong>, dan mengungkap misteri di balik peradaban yang porak-poranda
+          akibat <strong>Lament</strong>.
         </p>
 
         <div className="lore-grid">
@@ -249,19 +250,19 @@ export default function Introduction() {
 function getExpandedDetail(id) {
   const details = {
     rover:
-      'The Rover awakens with fragmented memories and an inexplicable connection to the frequencies of Solaris-3. Their journey is one of self-discovery — each region they explore reveals a piece of the puzzle linking them to the Lament and the fate of the world.',
+      'Rover terbangun dengan ingatan yang terfragmentasi dan koneksi yang tak dapat dijelaskan dengan frekuensi Solaris-3. Perjalanan mereka adalah tentang penemuan diri — setiap wilфизическ yang mereka jelajahi mengungkap sebagian dari teka-teki yang menghubungkan mereka dengan Lament dan nasib dunia.',
     lament:
-      'The Lament was not a single event but a cascading failure of the world\'s frequency equilibrium. Entire continents were reshaped overnight, and the residual energy left scars on reality itself — zones where time, space, and matter behave unpredictably.',
+      'Lament bukanlah satu peristiwa tunggal, melainkan kegagalan berantai dari keseimbangan frekuensi dunia. Seluruh benua dibentuk kembali dalam semalam, dan energi sisa meninggalkan bekas pada realitas itu sendiri — zona di mana waktu, ruang, dan materi berperilaku tak terduga.',
     'tacet-discords':
-      'Named for the "tacet" (silence) they leave in the world\'s frequencies, Tacet Discords are drawn to areas of high emotional distress. Some are mindless predators, while others display eerie intelligence and coordinated behavior.',
+      'Dinamakan dari "tacet" (keheningan) yang mereka tinggalkan dalam frekuensi dunia, Tacet Discord tertarik pada area dengan distres emosional yang tinggi. Beberapa adalah pemangsa tanpa akal, sementara yang lain menunjukkan kecerdasan aneh dan perilaku terkoordinasi.',
     resonance:
-      'Resonance is the ability to perceive and manipulate the fundamental frequencies of matter. Only a fraction of the population are natural Resonators, and their powers vary widely — from healing and shields to destructive sonic blasts.',
+      'Resonance adalah kemampuan untuk memanipulasi frekuensi fundamental materi. Hanya sebagian kecil populasi yang merupakan Resonator alami, dan kekuatan mereka sangat bervariasi — mulai dari penyembuhan dan perisai hingga serangan sonik yang menghancurkan.',
     echoes:
-      'When a Tacet Discord is defeated, its frequency signature lingers as an Echo. Skilled Resonators can attune to these Echoes, briefly wielding the creature\'s abilities. The strongest Echoes come from the most dangerous foes.',
+      'Ketika Tacet Discord dikalahkan, tanda frekuensinya tertinggal sebagai Echo. Resonator yang terampil dapat menyelaraskan diri dengan Echo ini, menguasai kemampuan makhluk tersebut untuk sementara waktu. Echo terkuat berasal dari musuh paling berbahaya.',
     threnodians:
-      'Threnodians are entities of immense power that predate the Lament. They exist between dimensions, and their motivations remain opaque — some appear destructive, while others seem to be testing humanity\'s worthiness to survive.',
+      'Threnodians adalah entitas dengan kekuatan luar biasa yang mendahului Lament. Mereka ada di antara dimensi, dan motivasi mereka tetap tidak jelas — beberapa tampak destruktif, sementara yang lain sepertinya menguji kelayakan umat manusia untuk bertahan hidup.',
     'black-shores':
-      'The Black Shores operate on the fringes of known civilization. Their agents appear at critical junctures with knowledge that should be impossible to obtain, suggesting they have access to records or technology from before the Lament.',
+      'Black Shores beroperasi di pinggiran peradaban yang diketahui. Agen mereka muncul pada titik-titik kritis dengan pengetahuan yang seharusnya tidak mungkin diperoleh, menunjukkan bahwa mereka memiliki akses ke catatan atau teknologi dari sebelum Lament.',
   };
   return details[id] || '';
 }

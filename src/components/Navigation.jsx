@@ -4,14 +4,14 @@ import { ScrollTrigger } from '../gsapSetup';
 import { prefersReducedMotion } from '../gsapSetup';
 
 const sections = [
-  { id: 'hero', label: 'HOME', chapter: '01' },
-  { id: 'about', label: 'ABOUT', chapter: '02' },
-  { id: 'features', label: 'FEATURES', chapter: '03' },
-  { id: 'gallery', label: 'GALLERY', chapter: '04' },
-  { id: 'videos', label: 'VIDEOS', chapter: '05' },
-  { id: 'characters', label: 'CHARACTERS', chapter: '06' },
-  { id: 'timeline', label: 'TIMELINE', chapter: '07' },
-  { id: 'cta', label: 'ARCHIVE', chapter: '08' },
+  { id: 'hero', label: 'BERANDA', chapter: '01' },
+  { id: 'about', label: 'TENTANG', chapter: '02' },
+  { id: 'features', label: 'FITUR', chapter: '03' },
+  { id: 'gallery', label: 'GALERI', chapter: '04' },
+  { id: 'videos', label: 'VIDEO', chapter: '05' },
+  { id: 'characters', label: 'KARAKTER', chapter: '06' },
+  { id: 'archive', label: 'ARSIP', chapter: '07' },
+  { id: 'cta', label: 'MULAI', chapter: '08' },
 ];
 
 export default function Navigation() {
@@ -75,7 +75,7 @@ export default function Navigation() {
           </div>
 
           <div className="nav-chapter">
-            <span className="nav-chapter-label">CHAPTER</span>
+            <span className="nav-chapter-label">BAB</span>
             <span className="nav-chapter-num">{sections[activeSection]?.chapter || '01'}</span>
             <span className="nav-chapter-divider">/</span>
             <span className="nav-chapter-total">{sections.length.toString().padStart(2, '0')}</span>

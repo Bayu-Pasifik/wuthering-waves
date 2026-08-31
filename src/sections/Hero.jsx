@@ -492,7 +492,7 @@ export default function Hero() {
             lineHeight: 1.7,
           }}
         >
-          A JOURNEY THROUGH MEMORY, RESONANCE, AND THE UNKNOWN
+          PERJALANAN MELALUI MEMORI, RESONANCE, DAN YANG TIDAK DIKETAHUI
         </p>
 
         {/* Chapter marker */}
@@ -508,7 +508,7 @@ export default function Hero() {
           }}
         >
           <span style={{ color: 'var(--cyan)', marginRight: '0.5rem' }}>01</span>
-          THE WORLD WAKES
+          DUNIA TERBANGUN
         </div>
       </div>
 
@@ -538,7 +538,7 @@ export default function Hero() {
             color: 'var(--text-muted)',
           }}
         >
-          SCROLL
+          GULIR
         </span>
         <div
           className="hero-scroll-arrow"

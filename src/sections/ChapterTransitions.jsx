@@ -8,9 +8,9 @@ import { prefersReducedMotion } from '../gsapSetup';
 const chapters = [
   {
     id: 1,
-    title: 'The World Wakes',
-    subtitle: 'SOLARIS-3 / RESONANCE',
-    description: 'A mysterious world stirs from slumber. Memories lost, echoes of the Lament whisper through ruined cities and overgrown wilds.',
+    title: 'Dunia Terbangun',
+    subtitle: 'SOLARIS-3 / RESONANSI',
+    description: 'Dunia misterius terbangun dari tidurnya. Ingatan yang hilang, gema Lament berbisik melalui kota-kota yang hancur dan alam liar yang tumbuh subur.',
     color: '#3FE0D0',
     symbolPath: 'M50,10 L90,35 L90,75 L50,95 L10,75 L10,35 Z',
     symbolMorph: 'M50,5 C75,5 95,25 95,50 C95,75 75,95 50,95 C25,95 5,75 5,50 C5,25 25,5 50,5 Z',
@@ -19,9 +19,9 @@ const chapters = [
   },
   {
     id: 2,
-    title: 'Echoes of the Lament',
+    title: 'Gema Lament',
     subtitle: 'HUANGLONG / JINZHOU',
-    description: 'The echoes grow louder. In the cities of Huanglong, the Tacet Discords close in, and old alliances are tested.',
+    description: 'Gema semakin keras. Di kota-kota Huanglong, Tacet Discord mendekat, dan aliansi lama diuji.',
     color: '#A78BFA',
     symbolPath: 'M50,5 L85,20 L95,60 L75,90 L25,90 L5,60 L15,20 Z',
     symbolMorph: 'M50,5 C80,5 95,30 95,55 C95,80 75,95 50,95 C25,95 5,75 5,50 C5,25 20,5 50,5 Z',
@@ -30,9 +30,9 @@ const chapters = [
   },
   {
     id: 3,
-    title: 'Tides of Change',
+    title: 'Pasang Perubahan',
     subtitle: 'RINASCITA / LAHAI-ROI',
-    description: 'New horizons beckon. Beyond Huanglong, the regions of Rinascita and Lahai-Roi hold secrets that could reshape everything.',
+    description: 'Cakrawala baru menanti. Di luar Huanglong, wilayah Rinascita dan Lahai-Roi menyimpan rahasia yang dapat mengubah segalanya.',
     color: '#F97316',
     symbolPath: 'M50,10 L90,40 L75,90 L25,90 L10,40 Z',
     symbolMorph: 'M50,5 C70,5 90,20 95,45 C100,70 85,95 55,95 C25,95 5,75 5,50 C5,25 30,5 50,5 Z',
@@ -41,9 +41,9 @@ const chapters = [
   },
   {
     id: 4,
-    title: 'The Final Resonance',
-    subtitle: 'BEYOND / UNKNOWN',
-    description: 'The journey converges. Past and future collide as the Resonators face the ultimate truth behind the Lament.',
+    title: 'Resonansi Terakhir',
+    subtitle: 'DI LUAR / TIDAK DIKETAHUI',
+    description: 'Perjalanan berkonvergensi. Masa lalu dan masa depan berbenturan saat Resonator menghadapi kebenaran terakhir di balik Lament.',
     color: '#E11D48',
     symbolPath: 'M50,5 L95,40 L80,90 L20,90 L5,40 Z',
     symbolMorph: 'M50,5 C75,5 95,30 95,50 C95,75 75,95 50,95 C25,95 5,75 5,50 C5,25 25,5 50,5 Z',
@@ -61,7 +61,6 @@ export default function ChapterTransitions({ chapterIndex = 0 }) {
   useEffect(() => {
     if (!containerRef.current || prefersReducedMotion) return;
     const ctx = gsap.context(() => {
-      // Background color transition
       gsap.fromTo(
         containerRef.current,
         { background: chapter.bgFrom },
@@ -76,7 +75,6 @@ export default function ChapterTransitions({ chapterIndex = 0 }) {
         }
       );
 
-      // Chapter symbol morph
       if (symbolRef.current) {
         gsap.fromTo(
           symbolRef.current,
@@ -95,7 +93,6 @@ export default function ChapterTransitions({ chapterIndex = 0 }) {
         );
       }
 
-      // DrawSVG for the connecting line
       if (lineRef.current) {
         gsap.fromTo(
           lineRef.current,
@@ -112,7 +109,6 @@ export default function ChapterTransitions({ chapterIndex = 0 }) {
         );
       }
 
-      // Title and text entrance
       gsap.from('.ch-title', {
         scrollTrigger: {
           trigger: containerRef.current,
@@ -162,7 +158,6 @@ export default function ChapterTransitions({ chapterIndex = 0 }) {
       }}
     >
       <div className="container" style={{ textAlign: 'center', position: 'relative', zIndex: 2 }}>
-        {/* Chapter symbol */}
         <div className="ch-symbol-wrapper">
           <svg
             viewBox="0 0 100 100"
@@ -181,7 +176,6 @@ export default function ChapterTransitions({ chapterIndex = 0 }) {
           </svg>
         </div>
 
-        {/* Chapter number badge */}
         <div
           className="ch-badge"
           style={{
@@ -199,10 +193,9 @@ export default function ChapterTransitions({ chapterIndex = 0 }) {
             marginBottom: 'var(--gap-md)',
           }}
         >
-          Chapter {chapter.id}
+          Bab {chapter.id}
         </div>
 
-        {/* Subtitle */}
         <p
           className="ch-subtitle"
           style={{
@@ -218,7 +211,6 @@ export default function ChapterTransitions({ chapterIndex = 0 }) {
           {chapter.subtitle}
         </p>
 
-        {/* Title */}
         <h2
           className="ch-title"
           style={{
@@ -233,7 +225,6 @@ export default function ChapterTransitions({ chapterIndex = 0 }) {
           {chapter.title}
         </h2>
 
-        {/* Description */}
         <p
           className="ch-desc"
           style={{
@@ -247,7 +238,6 @@ export default function ChapterTransitions({ chapterIndex = 0 }) {
           {chapter.description}
         </p>
 
-        {/* Connecting line */}
         <div
           className="ch-line-wrapper"
           style={{

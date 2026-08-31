@@ -90,7 +90,7 @@ export default function WhyInteresting() {
     <section ref={sectionRef} className="section-wrapper wi-section" id="features">
       <div className="container">
         <div className="wi-header">
-          <p className="section-label">Why The Game Is Interesting</p>
+          <p className="section-label">Mengapa Game Ini Menarik</p>
           <h2 className="section-title wi-title">Kenapa Wuthering Waves<br />Begitu Menarik?</h2>
           <p className="section-desc wi-subtitle">
             Bukan sekadar action RPG biasa — berikut alasan mengapa game ini layak dimainkan.
