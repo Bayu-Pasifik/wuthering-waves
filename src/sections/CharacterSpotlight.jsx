@@ -22,19 +22,19 @@ const characters = [
   {
     name: 'Brant',
     role: '5-Star Resonator',
-    element: 'Havoc',
+    element: 'Fussion',
     img: '/assets/images/Brant Splash.jpg'
   },
   {
     name: 'Cantarella',
     role: '5-Star Resonator',
-    element: 'Spectro',
+    element: 'Havoc',
     img: '/assets/images/Cantarella Splash.jpg'
   },
   {
     name: 'Chisa',
     role: '5-Star Resonator',
-    element: 'Electro',
+    element: 'Havoc',
     img: '/assets/images/Chisa Splash.jpg'
   },
   {
