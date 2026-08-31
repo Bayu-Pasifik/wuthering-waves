@@ -28,9 +28,5 @@ Thumbs.db
 .env.local
 
 # Large media files (use LFS or external hosting)
-public/assets/videos/
-src/assets/videos/
-src/assets/images/
-src/assets/hero.png
-src/assets/react.svg
-src/assets/vite.svg
+public/assets/
+src/assets/
