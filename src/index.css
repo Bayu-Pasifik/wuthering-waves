@@ -1,9 +1,11 @@
 @import './styles/tokens.css';
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 html {
@@ -14,44 +16,34 @@ html {
 
 body {
   font-family: var(--font-body);
-  background: var(--bg-primary);
+  background: var(--bg-0);
   color: var(--text-primary);
   overflow-x: hidden;
   line-height: 1.6;
 }
 
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--bg-primary);
+  background: var(--bg-1);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--accent-cyan);
-  border-radius: 2px;
+  background: var(--cyan);
+  border-radius: 3px;
 }
 
 a {
-  color: var(--accent-cyan);
+  color: var(--cyan);
   text-decoration: none;
-  transition: color var(--duration-fast);
 }
 
-a:hover {
-  color: var(--accent-cyan-bright);
-}
-
-img, video {
+img,
+video {
   max-width: 100%;
   display: block;
-}
-
-.section-wrapper {
-  min-height: 100vh;
-  position: relative;
-  overflow: hidden;
 }
 
 .container {
@@ -60,53 +52,41 @@ img, video {
   padding: 0 var(--gap-lg);
 }
 
-@media (max-width: 768px) {
-  .container {
-    padding: 0 var(--gap-md);
-  }
-}
-
-/* Section label */
 .section-label {
-  font-family: var(--font-heading);
-  font-size: 0.7rem;
+  font-family: var(--font-display);
+  font-size: 0.65rem;
   font-weight: 600;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: var(--accent-cyan);
-  margin-bottom: var(--gap-md);
-  display: inline-block;
+  color: var(--cyan);
 }
 
 .section-title {
-  font-family: var(--font-heading);
-  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 5rem);
   font-weight: 700;
-  line-height: 1.15;
-  margin-bottom: var(--gap-lg);
-  color: var(--text-primary);
+  line-height: 1.1;
 }
 
 .section-desc {
-  font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+  font-size: clamp(1rem, 1.25vw, 1.2rem);
   color: var(--text-secondary);
-  max-width: 640px;
+  max-width: 65ch;
   line-height: 1.75;
 }
 
-/* Decorative line */
-.deco-line {
-  height: 1px;
-  background: var(--gradient-accent);
-  opacity: 0.3;
-  margin: var(--gap-xl) 0;
-}
-
-/* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
+}
+
+:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 2px;
 }

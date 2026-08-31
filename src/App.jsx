@@ -1,48 +1,39 @@
 import { useEffect } from 'react';
-import gsap from './gsapSetup';
-import { ScrollTrigger } from './gsapSetup';
-import { Observer } from 'gsap/Observer';
-import { prefersReducedMotion } from './gsapSetup';
+import gsap, { ScrollTrigger, prefersReducedMotion } from './gsapSetup';
+import Navigation from './components/Navigation';
 import ScrollProgress from './components/ScrollProgress';
 import Hero from './sections/Hero';
-import About from './sections/About';
+import Introduction from './sections/Introduction';
+import SolarisWorld from './sections/SolarisWorld';
 import WhyInteresting from './sections/WhyInteresting';
 import Gallery from './sections/Gallery';
 import VideoShowcase from './sections/VideoShowcase';
+import VersionArchive from './sections/VersionArchive';
 import CharacterSpotlight from './sections/CharacterSpotlight';
-import Timeline from './sections/Timeline';
 import CTA from './sections/CTA';
 
 function App() {
   useEffect(() => {
-    ScrollTrigger.refresh();
-
-    // Observer for custom scroll detection (progress indicator)
-    if (!prefersReducedMotion) {
-      Observer.create({
-        type: 'wheel,touch',
-        onUpdate: (self) => {
-          // Can be used for custom scroll behaviors
-        }
-      });
-    }
-
+    const timer = setTimeout(() => ScrollTrigger.refresh(), 100);
     return () => {
+      clearTimeout(timer);
       ScrollTrigger.getAll().forEach(t => t.kill());
     };
   }, []);
 
   return (
     <>
+      <Navigation />
       <ScrollProgress />
       <main>
         <Hero />
-        <About />
+        <Introduction />
+        <SolarisWorld />
         <WhyInteresting />
         <Gallery />
         <VideoShowcase />
+        <VersionArchive />
         <CharacterSpotlight />
-        <Timeline />
         <CTA />
       </main>
     </>
